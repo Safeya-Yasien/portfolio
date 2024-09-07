@@ -1,6 +1,5 @@
 import { programmingSkills } from "@/app/constants/programming-skills";
 import Image from "next/image";
-import React from "react";
 
 const HeroSection = () => {
   return (

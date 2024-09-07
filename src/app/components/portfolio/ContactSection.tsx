@@ -1,4 +1,3 @@
-import React from "react";
 import CustomTitle from "./CustomTitle";
 
 const ContactSection = () => {
