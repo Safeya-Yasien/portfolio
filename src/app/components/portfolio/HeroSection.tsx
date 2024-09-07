@@ -7,13 +7,13 @@ const HeroSection = () => {
     <section id="about">
       <div className="container ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="">
+          <div className="flex items-center justify-center">
             <Image
               src="/hero.jpg"
               alt="safeya yasien"
-              height={520}
-              width={520}
-              className="border rounded w-full md:w-full"
+              height={250}
+              width={250}
+              className="border rounded  hidden lg:block "
             />
           </div>
           <div className="flex flex-col space-y-6 ">
