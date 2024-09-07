@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+exports.ContactSection = exports.ProjectsSection = exports.ServicesSection = exports.HeroSection = void 0;
+var HeroSection_1 = require("./HeroSection");
+exports.HeroSection = HeroSection_1["default"];
+var ServicesSection_1 = require("./ServicesSection");
+exports.ServicesSection = ServicesSection_1["default"];
+var ProjectsSection_1 = require("./ProjectsSection");
+exports.ProjectsSection = ProjectsSection_1["default"];
+var ContactSection_1 = require("./ContactSection");
+exports.ContactSection = ContactSection_1["default"];
