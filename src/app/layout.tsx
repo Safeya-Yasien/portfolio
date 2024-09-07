@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import Navbar from "./components/common/Navbar";
-import Footer from "./components/common/Footer";
+import { Footer, Navbar } from "./components/common";
 
 export const metadata: Metadata = {
   title: "Safeya Yasien",

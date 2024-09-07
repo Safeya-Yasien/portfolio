@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+    <footer className="bg-white rounded-lg shadow dark:bg-gray-800">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023
@@ -24,7 +24,7 @@ const Footer = () => {
               className="me-4 md:me-6 flex items-center "
             >
               <svg
-                className="w-6 h-6 text-gray-800 dark:text-white hover:text-blue-500"
+                className="w-6 h-6 text-gray-800 dark:text-white transition-all hover:text-blue-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
