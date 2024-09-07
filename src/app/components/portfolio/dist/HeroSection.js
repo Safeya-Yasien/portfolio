@@ -4,7 +4,7 @@ var programming_skills_1 = require("@/app/constants/programming-skills");
 var image_1 = require("next/image");
 var react_1 = require("react");
 var HeroSection = function () {
-    return (react_1["default"].createElement("section", null,
+    return (react_1["default"].createElement("section", { id: "about" },
         react_1["default"].createElement("div", { className: "container " },
             react_1["default"].createElement("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-6" },
                 react_1["default"].createElement("div", { className: "" },
