@@ -1,9 +1,7 @@
-import {
-  ContactSection,
-  HeroSection,
-  ProjectsSection,
-  ServicesSection,
-} from "./components/portfolio";
+import ContactSection from "./components/portfolio/ContactSection";
+import HeroSection from "./components/portfolio/HeroSection";
+import ProjectsSection from "./components/portfolio/ProjectsSection";
+import ServicesSection from "./components/portfolio/ServicesSection";
 
 export default function Home() {
   return (
