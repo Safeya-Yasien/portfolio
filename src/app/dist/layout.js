@@ -12,6 +12,7 @@ function RootLayout(_a) {
     return (React.createElement("html", { lang: "en" },
         React.createElement("body", { className: "min-h-screen overflow-x-hidden bg-neutral-900" },
             React.createElement(common_1.Navbar, null),
-            children)));
+            children,
+            React.createElement(common_1.Footer, null))));
 }
 exports["default"] = RootLayout;

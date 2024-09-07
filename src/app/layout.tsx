@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import { Navbar } from "./components/common";
+import { Footer, Navbar } from "./components/common";
 
 export const metadata: Metadata = {
   title: "Safeya Yasien",
@@ -17,6 +17,7 @@ export default function RootLayout({
       <body className="min-h-screen overflow-x-hidden bg-neutral-900">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

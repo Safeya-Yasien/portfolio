@@ -7,6 +7,6 @@ export const navLinks: TNavLink[] = [
   { name: "Home", path: "/" },
   { name: "About", path: "about" },
   { name: "Services", path: "services" },
-  { name: "Pricing", path: "pricing" },
+  { name: "Projects", path: "projects" },
   { name: "Contact", path: "contact" },
 ];

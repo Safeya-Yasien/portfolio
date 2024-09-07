@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id="about">
       <div className="container ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="">

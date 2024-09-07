@@ -1,4 +1,5 @@
 import {
+  ContactSection,
   HeroSection,
   ProjectsSection,
   ServicesSection,
@@ -6,10 +7,11 @@ import {
 
 export default function Home() {
   return (
-    <div className="wrapper py-28">
+    <div className="wrapper pt-28">
       <HeroSection />
       <ServicesSection />
       <ProjectsSection />
+      <ContactSection />
     </div>
   );
 }
