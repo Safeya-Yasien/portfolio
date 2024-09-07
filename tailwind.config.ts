@@ -16,6 +16,9 @@ const config: Config = {
         center: true,
         padding: "1.5rem",
       },
+      boxShadow: {
+        custom: "0 0 10px",
+      },
     },
   },
   plugins: [],

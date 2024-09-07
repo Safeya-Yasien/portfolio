@@ -13,10 +13,10 @@ const HeroSection = () => {
               alt="safeya yasien"
               height={520}
               width={520}
-              className="border rounded "
+              className="border rounded w-full md:w-full"
             />
           </div>
-          <div className="flex flex-col space-y-5 ">
+          <div className="flex flex-col space-y-6 ">
             <h1 className="text-white text-3xl font-bold uppercase tracking-wider">
               Safeya Yasien
             </h1>

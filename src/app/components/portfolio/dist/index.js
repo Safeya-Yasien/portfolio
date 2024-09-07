@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.ContactSection = exports.ProjectsSection = exports.ServicesSection = exports.HeroSection = void 0;
+exports.ProjectCard = exports.CustomTitle = exports.ServiceCard = exports.ContactSection = exports.ProjectsSection = exports.ServicesSection = exports.HeroSection = void 0;
 var HeroSection_1 = require("./HeroSection");
 exports.HeroSection = HeroSection_1["default"];
 var ServicesSection_1 = require("./ServicesSection");
@@ -9,3 +9,9 @@ var ProjectsSection_1 = require("./ProjectsSection");
 exports.ProjectsSection = ProjectsSection_1["default"];
 var ContactSection_1 = require("./ContactSection");
 exports.ContactSection = ContactSection_1["default"];
+var ServiceCard_1 = require("./ServiceCard");
+exports.ServiceCard = ServiceCard_1["default"];
+var CustomTitle_1 = require("./CustomTitle");
+exports.CustomTitle = CustomTitle_1["default"];
+var ProjectCard_1 = require("./ProjectCard");
+exports.ProjectCard = ProjectCard_1["default"];

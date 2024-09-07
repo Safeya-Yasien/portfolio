@@ -8,3 +8,7 @@
 body {
   font-family: var(--font-cairo);
 }
+
+section {
+  @apply py-12;
+}
