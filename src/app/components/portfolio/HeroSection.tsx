@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div className="flex items-center justify-center">
             <Image
               src="/hero.jpg"
-              alt="safeya yasien"
+              alt="Safeya Yasien, Front-end Developer"
               height={250}
               width={250}
               className="border rounded  hidden lg:block "
