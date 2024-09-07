@@ -22,6 +22,7 @@ const Footer = () => {
               href="https://github.com/Safeya-Yasien"
               target="_blank"
               className="me-4 md:me-6 flex items-center "
+              aria-label="go to github"
             >
               <svg
                 className="w-6 h-6 text-gray-800 dark:text-white transition-all hover:text-blue-500"
@@ -43,7 +44,9 @@ const Footer = () => {
           <li>
             <Link
               href="https://www.linkedin.com/in/safeya-yasien-2ba9b4260/"
+              target="_blank"
               className="me-4 md:me-6 flex items-center "
+              aria-label="go to linkedin"
             >
               <svg
                 className="w-6 h-6 text-gray-800 dark:text-white hover:text-blue-500"
