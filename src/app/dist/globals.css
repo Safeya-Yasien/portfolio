@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.cairo {
+  font-family: var(--font-cairo);
+}
+
+body {
+  font-family: var(--font-cairo);
+}
