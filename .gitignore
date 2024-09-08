@@ -16,6 +16,9 @@
 
 # production
 /build
+/.next
+*.js
+*.js.map
 
 # misc
 .DS_Store
