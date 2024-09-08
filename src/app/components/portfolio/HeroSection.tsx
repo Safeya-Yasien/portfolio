@@ -29,9 +29,9 @@ const HeroSection = () => {
               for end-to-end testing, which helps in automating browser
               interactions to ensure that web applications work as intended
             </p>
-            <h3 className="text-center text-white text-xl ">
+            <h2 className="text-center text-white text-xl ">
               Programming Skills
-            </h3>
+            </h2>
             <div className="my-skills flex text-white text-base flex-wrap">
               <ul className="languages flex flex-wrap">
                 {programmingSkills.map((skill, index) => (
