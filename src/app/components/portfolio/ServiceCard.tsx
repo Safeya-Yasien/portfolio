@@ -7,7 +7,7 @@ type IServiceProps = {
 
 const ServiceCard = ({ title, description }: IServiceProps) => {
   return (
-    <div className="block max-w-sm p-6  border border-gray-200 bg-neutral-950 rounded-lg shadow bg-">
+    <div className="block md:max-w-sm p-6 max-w-full border border-gray-200 bg-neutral-950 rounded-lg shadow bg-">
       <h5 className="mb-6 text-2xl tracking-tight text-gray-900 dark:text-white">
         {title}
       </h5>
