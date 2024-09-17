@@ -1,8 +1,36 @@
+"use client";
+
+import { useState } from "react";
 import CustomTitle from "./CustomTitle";
 
 const ContactSection = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
-    <section id="contact" className="bg-white dark:bg-gray-900">
+    <section id="contact" className="">
       <div className="container">
         <div className="px-4 mx-auto max-w-screen-md">
           <CustomTitle title={" Contact Us"} />
@@ -10,7 +38,13 @@ const ContactSection = () => {
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
           </p>
-          <form action="#" className="space-y-8">
+          <form onSubmit={onSubmit} className="flex flex-col gap-4">
+            <input
+              type="hidden"
+              name="access_key"
+              value="d8bc69e2-c253-4c78-bef6-2d245b2ab7e8"
+            />
+
             <div>
               <label
                 htmlFor="email"
@@ -23,6 +57,7 @@ const ContactSection = () => {
                 id="email"
                 className=" focus-visible:outline-none shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg   block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white   dark:shadow-sm-light"
                 placeholder="name@flowbite.com"
+                required
               />
             </div>
             <div>
@@ -37,6 +72,7 @@ const ContactSection = () => {
                 id="subject"
                 className="focus-visible:outline-none  block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white   dark:shadow-sm-light"
                 placeholder="Let us know how we can help you"
+                required
               />
             </div>
             <div className="sm:col-span-2">
@@ -51,6 +87,7 @@ const ContactSection = () => {
                 rows={6}
                 className="focus-visible:outline-none  block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
                 placeholder="Leave a comment..."
+                required
               />
             </div>
             <button
@@ -60,6 +97,9 @@ const ContactSection = () => {
               Send message
             </button>
           </form>
+          <span className="text-green-600 block mt-4 text-center">
+            {result}
+          </span>
         </div>
       </div>
     </section>

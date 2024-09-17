@@ -5,6 +5,7 @@ import ContactSection from "./ContactSection";
 import ServiceCard from "./ServiceCard";
 import CustomTitle from "./CustomTitle";
 import ProjectCard from "./ProjectCard";
+import CertificationsSection from "./CertificationsSection";
 
 export {
   HeroSection,
@@ -13,5 +14,5 @@ export {
   ContactSection,
   ServiceCard,
   CustomTitle,
-  ProjectCard,
+  ProjectCard,CertificationsSection
 };
