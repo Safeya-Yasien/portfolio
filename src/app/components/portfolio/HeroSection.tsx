@@ -21,13 +21,11 @@ const HeroSection = () => {
             </h1>
             <p className="text-slate-400 leading-8 text-base ">
               As a front-end developer, I have learned React, Redux Toolkit,
-              Bootstrap, SASS, and TypeScript. I have built several projects
-              using these technologies, focusing on responsive design and clean
-              code practices. Currently, I&apos;m applying my skills in
-              e-commerce and e-learning platforms to enhance my development
-              expertise. Additionally, I am expanding my knowledge with Cypress
-              for end-to-end testing, which helps in automating browser
-              interactions to ensure that web applications work as intended
+              Bootstrap, SASS, TypeScript, Next.js, and Tailwind CSS. I focus on
+              responsive design and clean code practices. I am expanding my
+              knowledge with Cypress for end-to-end testing, which helps in
+              automating browser interactions to ensure that web applications
+              work as intended.
             </p>
             <h2 className="text-center text-white text-xl ">
               Programming Skills

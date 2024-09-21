@@ -1,7 +1,7 @@
 export const programmingSkills = [
   "HTML",
   "CSS",
-  "SaSS",
+  "SCSS",
   "JavaScript",
   "TypeScript",
   "React",
