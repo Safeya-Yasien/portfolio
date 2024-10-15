@@ -19,14 +19,14 @@ const Navbar = () => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span className="self-center text-2xl font-semibold whitespace-nowrap ">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             Safeya Yasien
           </span>
         </Link>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200   "
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={toggleMenu}
@@ -60,7 +60,7 @@ const Navbar = () => {
                     href={`#${link.path}`}
                     scroll
                     className={cn(
-                      "block py-2 px-3 text-white  rounded md:bg-transparent md:text-blue-700 md:p-0   transition-all"
+                      "block py-2 px-3 text-white  rounded md:bg-transparent  md:p-0  hover:text-blue-500 transition-all"
                     )}
                     aria-current="page"
                   >
@@ -71,7 +71,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        <ul className="hidden md:flex flex-wrap items-center text-sm font-medium text-gray-500  sm:mt-0">
+        <ul className="hidden md:flex flex-wrap items-center text-sm font-medium  text-gray-400 sm:mt-0">
           <li>
             <Link
               href="https://github.com/Safeya-Yasien"
@@ -80,7 +80,7 @@ const Navbar = () => {
               aria-label="go to github"
             >
               <svg
-                className="w-6 h-6 text-gray-800  transition-all hover:text-blue-500"
+                className="w-6 h-6  text-white transition-all hover:text-blue-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -104,7 +104,7 @@ const Navbar = () => {
               aria-label="go to linkedin"
             >
               <svg
-                className="w-6 h-6 text-gray-800  hover:text-blue-500"
+                className="w-6 h-6  text-white hover:text-blue-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
