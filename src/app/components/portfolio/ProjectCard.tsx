@@ -18,7 +18,7 @@ const ProjectCard = ({
 }: TProjectCardProps) => {
   return (
     <div
-      className="max-w-full md:max-w-sm bg-white border border-gray-200 rounded-lg shadow 
+      className="max-w-full md:max-w-sm  border  rounded-lg shadow bg-gray-800 border-gray-700
     flex flex-col "
     >
       <Image
@@ -30,18 +30,18 @@ const ProjectCard = ({
       />
       <div className="p-5 flex flex-col justify-end flex-1">
         <Link href={live_demo} target="_blank">
-          <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+          <h3 className="mb-2 text-2xl font-bold tracking-tight  text-white">
             {title}
           </h3>
         </Link>
-        <p className="mb-3 font-normal text-gray-700">
+        <p className="mb-3 font-normal  text-gray-400">
           {description}
         </p>
         <div className="flex justify-between items-center">
           <Link
             href={live_demo}
             target="_blank"
-            className="flex items-center w-fit px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 "
+            className="flex items-center w-fit px-3 py-2 text-sm font-medium text-center text-white  rounded-lg bg-blue-600 hover:bg-blue-700"
           >
             Live Demo
             <svg
@@ -64,11 +64,11 @@ const ProjectCard = ({
           <Link
             href={github_link}
             target="_blank"
-            className="text-gray-900  hover:text-blue-500"
+            className=" text-white hover:text-blue-500"
             aria-label="go to github"
           >
             <svg
-              className="w-6 h-6 text-gray-800  transition-all hover:text-blue-500"
+              className="w-6 h-6  text-white transition-all hover:text-blue-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
