@@ -6,15 +6,6 @@ const HeroSection = () => {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Profile Image Section */}
-          <div className="flex items-center justify-center">
-            <Image
-              src="/hero.jpg"
-              alt="Safeya Yasien, Front-end Developer"
-              height={250}
-              width={250}
-              className="border rounded hidden lg:block"
-            />
-          </div>
 
           {/* Information Section */}
           <div className="flex flex-col space-y-6">
@@ -23,19 +14,36 @@ const HeroSection = () => {
               Safeya Yasien
             </h1>
             <p className="text-slate-400 leading-8 text-base">
-              As a front-end developer, I have learned React, Redux Toolkit,
-              Bootstrap, SASS, TypeScript, Next.js, and Tailwind CSS. I focus on
-              responsive design and clean code practices. I am expanding my
-              knowledge with Cypress for end-to-end testing, which helps in
-              automating browser interactions to ensure that web applications
-              work as intended.
+              As I reflect on my journey, I realize that my passion for building
+              responsive and clean web applications has been a driving force in
+              my career as a front-end developer. With a strong foundation in
+              React, Redux Toolkit, Bootstrap, SASS, TypeScript, Next.js, and
+              Tailwind CSS, I&apos;ve been able to craft engaging user
+              experiences that delight and inspire.
+              <br />
+              My journey took a significant turn when I enrolled in the ALX
+              program, a 12-month intensive course that would challenge me to
+              push beyond my limits. I was determined to expand my skills and
+              knowledge, and ALX provided the perfect platform to do so. <br />
+              In addition to ALX, I also had the opportunity to participate in
+              the DEPI program, a 6-month intensive course that further honed my
+              skills and knowledge in front-end development. This experience not
+              only deepened my understanding of web development but also gave me
+              the confidence to take on more complex projects.
             </p>
-
+          </div>
+          <div className="flex flex-col space-y-6 pt-14">
+            <p className="text-slate-400 leading-8 text-base">
+              In addition to ALX, I also had the opportunity to participate in
+              the DEPI program, a 6-month intensive course that further honed my
+              skills and knowledge in front-end development. This experience not
+              only deepened my understanding of web development but also gave me
+              the confidence to take on more complex projects.
+            </p>
             {/* Faculty Information */}
             <h2 className="text-white text-xl font-semibold">
-              Education: Faculty of Computer and Artificial Intelligence
+              Education: Faculty of Computer and Artificial Intelligence - FCAI
             </h2>
-
 
             {/* Contact Details */}
             <h2 className="text-white text-xl font-semibold">
