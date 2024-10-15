@@ -35,7 +35,7 @@ const ContactSection = () => {
       <div className="container">
         <div className="px-4 mx-auto max-w-screen-md">
           <CustomTitle title={" Contact Us"} />
-          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">
+          <p className="mb-8 lg:mb-16 font-light text-center  text-gray-400 sm:text-xl">
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
           </p>
@@ -43,7 +43,7 @@ const ContactSection = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium  text-gray-300"
               >
                 Your email
               </label>
@@ -51,7 +51,7 @@ const ContactSection = () => {
                 type="email"
                 id="email"
                 name="email"
-                className=" focus-visible:outline-none shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg   block w-full p-2.5 "
+                className=" focus-visible:outline-none shadow-sm  border  text-sm rounded-lg   block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white   shadow-sm-light"
                 placeholder="name@flowbite.com"
                 required
               />
@@ -59,7 +59,7 @@ const ContactSection = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className=" block mb-2 text-sm font-medium text-gray-900 "
+                className=" block mb-2 text-sm font-medium  text-gray-400"
               >
                 Your message
               </label>
@@ -67,14 +67,14 @@ const ContactSection = () => {
                 id="message"
                 rows={6}
                 name="message"
-                className="focus-visible:outline-none  block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300    "
+                className="focus-visible:outline-none  block p-2.5 w-full text-sm   rounded-lg shadow-sm border    bg-gray-700 border-gray-600 placeholder-gray-400 text-white "
                 placeholder="Leave a comment..."
                 required
               />
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800    sm:w-fit block mx-auto"
+              className="py-3 px-5 text-sm font-medium text-center text-white  rounded-lg   bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 sm:w-fit block mx-auto"
             >
               Send message
             </button>
