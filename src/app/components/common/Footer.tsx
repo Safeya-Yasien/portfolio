@@ -3,9 +3,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow dark:bg-gray-800">
+    <footer className="bg-white rounded-lg shadow ">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span className="text-sm text-gray-500 sm:text-center">
           © 2023
           <Link
             href="https://github.com/Safeya-Yasien/"
@@ -16,7 +16,7 @@ const Footer = () => {
           </Link>
           . All Rights Reserved.
         </span>
-        <ul className="social-icons flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul className="social-icons flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
           <li>
             <Link
               href="https://github.com/Safeya-Yasien"
@@ -25,7 +25,7 @@ const Footer = () => {
               aria-label="go to github"
             >
               <svg
-                className="w-6 h-6 text-gray-800 dark:text-white transition-all hover:text-blue-500"
+                className="w-6 h-6 text-gray-800  transition-all hover:text-blue-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -49,7 +49,7 @@ const Footer = () => {
               aria-label="go to linkedin"
             >
               <svg
-                className="w-6 h-6 text-gray-800 dark:text-white hover:text-blue-500"
+                className="w-6 h-6 text-gray-800  hover:text-blue-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
