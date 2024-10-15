@@ -22,27 +22,22 @@ const certifications = [
 
 const CertificationsSection = () => {
   return (
-    <section id="certifications" className="bg-gray-100  py-12">
+    <section id="certifications" className=" bg-gray-800 py-12">
       <div className="container mx-auto px-4">
         <CustomTitle title={"Certifications"} />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {certifications.map((cert, index) => (
-            <div
-              key={index}
-              className="bg-white  p-6 rounded-lg shadow-md"
-            >
-              <h3 className="text-xl font-semibold text-gray-900  mb-2">
+            <div key={index} className=" bg-gray-900 p-6 rounded-lg shadow-md flex flex-col">
+              <h3 className="text-xl font-semibold text-gray-100 mb-2">
                 {cert.title}
               </h3>
-              <p className="text-gray-600  mb-4">
-                {cert.description}
-              </p>
+              <p className=" text-gray-400 mb-4">{cert.description}</p>
               <a
                 href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 "
+                className=" text-blue-400 hover:text-blue-300 mt-auto"
               >
                 View Certificate
               </a>
