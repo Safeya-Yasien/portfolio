@@ -14,15 +14,13 @@ const ContactSection = () => {
 
     formData.append("access_key", "d8bc69e2-c253-4c78-bef6-2d245b2ab7e8");
 
-
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData,
     });
 
-    
     const data = await response.json();
-    console.log(data)
+    console.log(data);
 
     if (data.success) {
       setResult(data.message);
@@ -37,7 +35,7 @@ const ContactSection = () => {
       <div className="container">
         <div className="px-4 mx-auto max-w-screen-md">
           <CustomTitle title={" Contact Us"} />
-          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
           </p>
@@ -45,7 +43,7 @@ const ContactSection = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Your email
               </label>
@@ -53,7 +51,7 @@ const ContactSection = () => {
                 type="email"
                 id="email"
                 name="email"
-                className=" focus-visible:outline-none shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg   block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white   dark:shadow-sm-light"
+                className=" focus-visible:outline-none shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg   block w-full p-2.5 "
                 placeholder="name@flowbite.com"
                 required
               />
@@ -61,7 +59,7 @@ const ContactSection = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className=" block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                className=" block mb-2 text-sm font-medium text-gray-900 "
               >
                 Your message
               </label>
@@ -69,14 +67,14 @@ const ContactSection = () => {
                 id="message"
                 rows={6}
                 name="message"
-                className="focus-visible:outline-none  block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
+                className="focus-visible:outline-none  block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300    "
                 placeholder="Leave a comment..."
                 required
               />
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800   dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 sm:w-fit block mx-auto"
+              className="py-3 px-5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800    sm:w-fit block mx-auto"
             >
               Send message
             </button>
