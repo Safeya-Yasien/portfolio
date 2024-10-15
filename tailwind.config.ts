@@ -8,10 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      colors: {},
       container: {
         center: true,
         padding: "1.5rem",

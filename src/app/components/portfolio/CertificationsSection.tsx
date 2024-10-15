@@ -35,7 +35,7 @@ const CertificationsSection = () => {
               <h3 className="text-xl font-semibold text-gray-100 mb-2">
                 {cert.title}
               </h3>
-              <p className=" text-gray-400 mb-4">{cert.description}</p>
+              <p className=" text-slate-300 mb-4">{cert.description}</p>
               <a
                 href={cert.link}
                 target="_blank"

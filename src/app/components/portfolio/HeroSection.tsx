@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const HeroSection = () => {
   return (
     <section id="about">
@@ -13,7 +11,7 @@ const HeroSection = () => {
             <h1 className="text-white text-3xl font-bold capitalize tracking-wider">
               Safeya Yasien
             </h1>
-            <p className="text-slate-400 leading-8 text-base">
+            <p className="text-slate-300 leading-8 text-base">
               As I reflect on my journey, I realize that my passion for building
               responsive and clean web applications has been a driving force in
               my career as a front-end developer. With a strong foundation in
@@ -33,7 +31,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-6 pt-14">
-            <p className="text-slate-400 leading-8 text-base">
+            <p className="text-slate-300 leading-8 text-base">
               In addition to ALX, I also had the opportunity to participate in
               the DEPI program, a 6-month intensive course that further honed my
               skills and knowledge in front-end development. This experience not
@@ -49,7 +47,7 @@ const HeroSection = () => {
             <h2 className="text-white text-xl font-semibold">
               Contact Information
             </h2>
-            <p className="text-slate-400">
+            <p className="text-slate-300">
               <span className="font-bold">Email: </span>
               <a
                 href="mailto:ssafeya5@gmail.com"
@@ -58,7 +56,7 @@ const HeroSection = () => {
                 ssafeya5@gmail.com
               </a>
             </p>
-            <p className="text-slate-400">
+            <p className="text-slate-300">
               <span className="font-bold">Phone: </span>
               <a
                 href="https://wa.me/201204296348"

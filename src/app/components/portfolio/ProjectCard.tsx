@@ -34,7 +34,7 @@ const ProjectCard = ({
             {title}
           </h3>
         </Link>
-        <p className="mb-3 font-normal  text-gray-400">
+        <p className="mb-3 font-normal  text-slate-300">
           {description}
         </p>
         <div className="flex justify-between items-center">
