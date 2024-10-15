@@ -28,7 +28,10 @@ const CertificationsSection = () => {
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {certifications.map((cert, index) => (
-            <div key={index} className=" bg-gray-900 p-6 rounded-lg shadow-md flex flex-col">
+            <div
+              key={index}
+              className=" bg-gray-900 p-6 rounded-lg shadow-md flex flex-col"
+            >
               <h3 className="text-xl font-semibold text-gray-100 mb-2">
                 {cert.title}
               </h3>
