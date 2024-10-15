@@ -2,6 +2,7 @@ import {
   CertificationsSection,
   ContactSection,
   HeroSection,
+  MySkills,
   ProjectsSection,
   ServicesSection,
 } from "./components/portfolio";
@@ -11,8 +12,9 @@ export default function Home() {
     <div className="wrapper pt-28">
       <HeroSection />
       <ServicesSection />
+      <MySkills />
       <ProjectsSection />
-      <CertificationsSection/>
+      <CertificationsSection />
       <ContactSection />
     </div>
   );

@@ -6,10 +6,11 @@ import ServiceCard from "./ServiceCard";
 import CustomTitle from "./CustomTitle";
 import ProjectCard from "./ProjectCard";
 import CertificationsSection from "./CertificationsSection";
+import MySkills from "./MySkills";
 
 export {
   HeroSection,
-  ServicesSection,
+  ServicesSection,MySkills, 
   ProjectsSection,
   ContactSection,
   ServiceCard,

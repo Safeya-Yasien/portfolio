@@ -9,4 +9,10 @@ export const programmingSkills = [
   "NextJS",
   "Bootstrap",
   "Tailwind",
+  "React Hook Form",
+  "Zod",
+  "Redux Toolkit",
+  "Git",
+  "GitHub",
+
 ];
