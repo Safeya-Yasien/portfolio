@@ -23,11 +23,7 @@ const HeroSection = () => {
               program, a 12-month intensive course that would challenge me to
               push beyond my limits. I was determined to expand my skills and
               knowledge, and ALX provided the perfect platform to do so. <br />
-              In addition to ALX, I also had the opportunity to participate in
-              the DEPI program, a 6-month intensive course that further honed my
-              skills and knowledge in front-end development. This experience not
-              only deepened my understanding of web development but also gave me
-              the confidence to take on more complex projects.
+           
             </p>
           </div>
           <div className="flex flex-col space-y-6 pt-14">
