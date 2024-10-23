@@ -43,8 +43,8 @@ const ContactSection = () => {
           <div className="text-center mb-8 flex items-center justify-center gap-3">
             <p className="text-slate-300">
               Email:{" "}
-              <a href="mailto:your-email@example.com" className="text-blue-400">
-                ssafeya5@example.com
+              <a href="mailto:ssafeya5@gmail.com" className="text-blue-400">
+                ssafeya5@gmail.com
               </a>
             </p>
             <p className="text-slate-300">
