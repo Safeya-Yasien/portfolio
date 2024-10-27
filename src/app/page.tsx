@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className="wrapper pt-28">
       <HeroSection />
-      <ServicesSection />
       <MySkills />
+      <ServicesSection />
       <ProjectsSection />
       <CertificationsSection />
       <ContactSection />
