@@ -22,7 +22,7 @@ const certifications = [
 
 const CertificationsSection = () => {
   return (
-    <section id="certifications" className=" bg-gray-800 py-12">
+    <section id="certifications" className="py-12">
       <div className="container mx-auto px-4">
         <CustomTitle title={"Certifications"} />
 

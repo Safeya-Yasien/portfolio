@@ -31,7 +31,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="">
+    <section id="contact" className="bg-neutral-950">
       <div className="container">
         <div className="px-4 mx-auto max-w-screen-md">
           <CustomTitle title={" Contact Us"} />
