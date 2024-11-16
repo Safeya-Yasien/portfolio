@@ -19,7 +19,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="projects" className="bg-neutral-950">
       <div className="container">
         <CustomTitle title={"Projects"} />
 
