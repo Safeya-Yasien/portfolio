@@ -6,6 +6,7 @@ export const projectsData = [
     image: "/projects/ocean.png",
     github_link: "https://github.com/Safeya-Yasien/ocean",
     live_demo: "https://master--my-ocean.netlify.app/",
+    technologies: ["NextJs", "Tailwind"],
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const projectsData = [
     image: "/projects/apkly.png",
     github_link: "https://github.com/Safeya-Yasien/Apkly",
     live_demo: "https://safeya-yasien.github.io/Apkly/",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap", "JQuery"],
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const projectsData = [
     image: "/projects/traveling.png",
     github_link: "https://github.com/Safeya-Yasien/traveling",
     live_demo: "https://safeya-yasien.github.io/traveling/",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap", "LocalStorage"],
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export const projectsData = [
       "https://github.com/Safeya-Yasien/product-management-system-crud",
     live_demo:
       "https://safeya-yasien.github.io/product-management-system-crud/",
+    technologies: ["HTML", "CSS", "JS", "LocalStorage"],
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ export const projectsData = [
     image: "/projects/next-dashboard.png",
     github_link: "https://github.com/Safeya-Yasien/next-dashboard-ui",
     live_demo: "https://next-dashboard-ui-mocha.vercel.app/admin",
+    technologies: ["NextTs", "Tailwind", "react-big-calendar", "recharts"],
   },
 
   {
@@ -49,6 +54,7 @@ export const projectsData = [
     image: "/projects/social-links-profile.png",
     github_link: "https://github.com/Safeya-Yasien/social-links-profile-main",
     live_demo: "https://safeya-yasien.github.io/social-links-profile-main/",
+    technologies: ["HTML", "CSS"],
   },
   {
     id: 7,
@@ -57,6 +63,7 @@ export const projectsData = [
     image: "/projects/todo-list.png",
     github_link: "https://github.com/Safeya-Yasien/to-do-list",
     live_demo: "https://safeya-yasien.github.io/to-do-list/",
+    technologies: ["HTML", "CSS", "JS", "LocalStorage", "SweetAlert2"],
   },
   {
     id: 8,
@@ -65,13 +72,15 @@ export const projectsData = [
     image: "/projects/cart_reduxToolkit.png",
     github_link: "https://github.com/Safeya-Yasien/Cart_ReduxToolkit",
     live_demo: "https://safeya-yasien.github.io/Cart_ReduxToolkit/",
+    technologies: ["CRA", "Redux", "Redux-Toolkit", "React-Bootstrap"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Portfolio Template",
     description: "React vite, react-bootstrap , SCSS,",
     image: "/projects/portfolio_template.png",
     github_link: "https://github.com/Safeya-Yasien/react-portfolio-template",
     live_demo: "https://safeya-yasien.github.io/react-portfolio-template/",
+    technologies: ["Vite", "React-Bootstrap", "SASS"],
   },
 ];
