@@ -47,12 +47,7 @@ const ContactSection = () => {
                 ssafeya5@gmail.com
               </a>
             </p>
-            <p className="text-slate-300">
-              Phone:{" "}
-              <a href="https://wa.me/201204296348" className="text-blue-400">
-                01204296348
-              </a>
-            </p>
+          
             <div className="flex justify-center space-x-4">
               <a
                 href="https://github.com/Safeya-Yasien"
