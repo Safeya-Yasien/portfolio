@@ -6,13 +6,13 @@ const Footer = () => {
     <footer className=" rounded-lg shadow ">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm  sm:text-center text-gray-400">
-          © 2023
+          © 2024 
           <Link
             href="https://github.com/Safeya-Yasien/"
             target="_blank"
             className="hover:underline"
           >
-            Safeya Yasien™
+            {" "} Safeya Yasien™
           </Link>
           . All Rights Reserved.
         </span>
