@@ -125,7 +125,7 @@ const ContactSection = () => {
                 id="message"
                 rows={6}
                 name="message"
-                className="focus-visible:outline-none  block p-2.5 w-full text-sm   rounded-lg shadow-sm border bg-black border-gray-600 placeholder-gray-400 text-white "
+                className="focus-visible:outline-none  block p-2.5 w-full text-sm   rounded-lg shadow-sm border bg-black border-gray-600 placeholder-gray-400 text-white resize-none"
                 placeholder="Leave a comment..."
                 required
               />
