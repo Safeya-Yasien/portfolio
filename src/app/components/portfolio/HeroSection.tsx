@@ -17,7 +17,7 @@ const HeroSection = () => {
             program further honed my front-end development expertise, building
             my confidence to tackle complex projects.
           </p>
-          <div className="bg-slate-800 p-4 rounded-lg shadow-lg">
+          <div className="bg-slate-900 p-4 rounded-lg shadow-lg">
             <h2 className="text-white text-2xl font-semibold tracking-wide flex items-center">
               <svg
                 fill="#60a5fa"

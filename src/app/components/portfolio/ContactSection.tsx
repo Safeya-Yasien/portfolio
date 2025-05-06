@@ -31,7 +31,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="bg-neutral-950">
+    <section id="contact" className="section-dark">
       <div className="container">
         <div className="px-4 mx-auto max-w-screen-md">
           <CustomTitle title={" Contact Us"} />
@@ -43,11 +43,11 @@ const ContactSection = () => {
           <div className="text-center mb-8 flex items-center justify-center gap-3">
             <p className="text-slate-300">
               Email:{" "}
-              <a href="mailto:ssafeya5@gmail.com" className="text-blue-400">
+              <a href="mailto:ssafeya5@gmail.com" className="text-blue-500 ">
                 ssafeya5@gmail.com
               </a>
             </p>
-          
+
             <div className="flex justify-center space-x-4">
               <a
                 href="https://github.com/Safeya-Yasien"
@@ -132,7 +132,7 @@ const ContactSection = () => {
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white  rounded-lg   bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 sm:w-fit block mx-auto"
+              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-800 hover:bg-blue-900 focus:ring-blue-900 sm:w-fit block mx-auto"
             >
               Send message
             </button>

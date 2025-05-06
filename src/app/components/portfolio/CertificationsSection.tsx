@@ -22,7 +22,7 @@ const certifications = [
 
 const CertificationsSection = () => {
   return (
-    <section id="certifications" className="py-12">
+    <section id="certifications" className="section">
       <div className="container mx-auto px-4">
         <CustomTitle title={"Certifications"} />
 
@@ -30,7 +30,7 @@ const CertificationsSection = () => {
           {certifications.map((cert, index) => (
             <div
               key={index}
-              className=" bg-gray-900 p-6 rounded-lg shadow-md flex flex-col"
+              className=" section-dark p-6 rounded-lg shadow-md flex flex-col"
             >
               <h3 className="text-xl font-semibold text-gray-100 mb-2">
                 {cert.title}
@@ -40,7 +40,7 @@ const CertificationsSection = () => {
                 href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-blue-400 hover:text-blue-300 mt-auto"
+                className="text-blue-500 hover:text-blue-600 hover:underline mt-auto transition-all"
               >
                 View Certificate
               </a>

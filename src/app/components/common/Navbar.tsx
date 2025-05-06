@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed  text-white w-full bg-neutral-950  shadow-blue-glow">
+    <header className="fixed  text-white w-full bg-neutral-950/50  shadow-blue-glow backdrop-blur-lg z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           href="/"

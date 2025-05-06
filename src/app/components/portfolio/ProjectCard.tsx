@@ -17,10 +17,7 @@ const ProjectCard = ({
   live_demo,
 }: TProjectCardProps) => {
   return (
-    <div
-      className="max-w-full md:max-w-sm  border  rounded-lg shadow bg-gray-800 border-gray-700
-    flex flex-col "
-    >
+    <div className="max-w-full md:max-w-sm border border-blue-700/20 bg-white/5 backdrop-blur-sm rounded-2xl shadow-blue-500/10 shadow-md transition hover:shadow-blue-500/20 hover:scale-[1.01] flex flex-col">
       <Image
         src={image}
         alt={title}
@@ -34,14 +31,12 @@ const ProjectCard = ({
             {title}
           </h3>
         </Link>
-        <p className="mb-3 font-normal  text-slate-300">
-          {description}
-        </p>
+        <p className="mb-3 font-normal  text-slate-300">{description}</p>
         <div className="flex justify-between items-center">
           <Link
             href={live_demo}
             target="_blank"
-            className="flex items-center w-fit px-3 py-2 text-sm font-medium text-center text-white  rounded-lg bg-blue-600 hover:bg-blue-700"
+            className="flex items-center w-fit px-4 py-2 text-sm font-semibold text-white bg-blue-900 hover:bg-blue-800 rounded-lg backdrop-blur-md shadow-lg transition-all"
           >
             Live Demo
             <svg
