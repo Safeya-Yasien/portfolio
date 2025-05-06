@@ -1,8 +1,0 @@
-[build]
-  command = "pnpm install && pnpm run export"
-  publish = "out"
-
-[build.environment]
-  NODE_VERSION = "20"
-  PNPM_VERSION = "10.10.0"
-  NPM_FLAGS = "--version" # prevent Netlify from using npm
