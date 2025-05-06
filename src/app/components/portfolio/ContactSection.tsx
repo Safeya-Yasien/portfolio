@@ -109,7 +109,7 @@ const ContactSection = () => {
                 type="email"
                 id="email"
                 name="email"
-                className=" focus-visible:outline-none shadow-sm  border  text-sm rounded-lg   block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white   shadow-sm-light"
+                className=" focus-visible:outline-none shadow-sm  border  text-sm rounded-lg   block w-full p-2.5 bg-black border-gray-600 placeholder-gray-400 text-white   shadow-sm-light"
                 placeholder="name@flowbite.com"
                 required
               />
@@ -125,7 +125,7 @@ const ContactSection = () => {
                 id="message"
                 rows={6}
                 name="message"
-                className="focus-visible:outline-none  block p-2.5 w-full text-sm   rounded-lg shadow-sm border    bg-gray-700 border-gray-600 placeholder-gray-400 text-white "
+                className="focus-visible:outline-none  block p-2.5 w-full text-sm   rounded-lg shadow-sm border bg-black border-gray-600 placeholder-gray-400 text-white "
                 placeholder="Leave a comment..."
                 required
               />
