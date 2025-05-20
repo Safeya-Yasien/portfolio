@@ -13,12 +13,9 @@ const config: Config = {
         center: true,
         padding: "1.5rem",
       },
-      boxShadow: {
-        custom: "0 0 10px",
-        "blue-glow": "0 0 10px rgba(59, 130, 246, 1)",
-      },
     },
   },
+  darkMode: "class",
   plugins: [],
 };
 export default config;
