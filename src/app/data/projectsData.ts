@@ -68,7 +68,8 @@ export const projectsData = [
   {
     id: 8,
     title: "Cart ReduxToolkit",
-    description: "React, react-router-dom, react-redux, react-bootstrap ",
+    description:
+      "React (CRA), ReduxToolkit, React-Bootstrap, CRACO, Fetch API (FakeStore API) ",
     image: "/projects/cart_reduxToolkit.png",
     github_link: "https://github.com/Safeya-Yasien/Cart_ReduxToolkit",
     live_demo: "https://safeya-yasien.github.io/Cart_ReduxToolkit/",

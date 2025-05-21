@@ -49,7 +49,7 @@ const ProjectCard = ({
           <Link
             href={github_link}
             target="_blank"
-            className="me-4 md:me-6 flex items-center text-xl "
+            className="me-4 md:me-6 flex items-center text-xl hover:text-blue-600 dark:hover:text-blue-400"
             aria-label="go to github"
           >
             <FontAwesomeIcon icon={faGithub} />
