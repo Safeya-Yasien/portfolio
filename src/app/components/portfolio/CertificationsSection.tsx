@@ -37,7 +37,7 @@ const CertificationsSection = () => {
               href={cert.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-600 hover:underline mt-auto transition-all"
+              className="text-blue-800 hover:text-blue-900 dark:text-blue-500 dark:hover:text-blue-600 hover:underline mt-auto transition-all"
             >
               View Certificate
             </a>

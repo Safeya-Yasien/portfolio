@@ -9,7 +9,7 @@ const Footer = () => {
         <Link
           href="https://github.com/Safeya-Yasien/"
           target="_blank"
-          className="underline "
+          className="underline hover:text-blue-900 dark:hover:text-blue-800"
         >
           {" "}
           Safeya Yasien™

@@ -33,6 +33,7 @@ const ProjectFilter: React.FC<ProjectFilterProps> = ({ onFilterChange }) => {
         value={selectedTech}
         onChange={handleChange}
         className="p-2 bg-gray-700 text-white rounded-lg"
+        aria-label="Filter by technology"
       >
         {filterOptions.map((tech) => (
           <option key={tech} value={tech}>

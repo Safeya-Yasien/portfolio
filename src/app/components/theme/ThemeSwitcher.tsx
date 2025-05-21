@@ -23,7 +23,8 @@ const ThemeSwitcher = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="flex items-center text-xl  transition hover:text-blue-400"
+      className="flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
+      aria-label="toggle theme"
     >
       <FontAwesomeIcon icon={icon} className="w-5 h-5" />
     </button>

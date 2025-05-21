@@ -44,7 +44,7 @@ const ContactSection = () => {
             Email:{" "}
             <a
               href="mailto:ssafeya5@gmail.com"
-              className=" underline text-blue-600"
+              className="underline text-blue-700 dark:text-blue-400"
             >
               ssafeya5@gmail.com
             </a>

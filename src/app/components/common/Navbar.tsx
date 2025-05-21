@@ -32,19 +32,18 @@ const Navbar = () => {
 
         {/* menu bar */}
         <div className="flex items-center gap-2 md:hidden">
-  <ThemeSwitcher />
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-          onClick={toggleMenu}
-        >
-          <span className="sr-only">Open main menu</span>
-          <FontAwesomeIcon icon={faBars} className="w-5 h-5" />
-        </button>
-
+          <ThemeSwitcher />
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            onClick={toggleMenu}
+          >
+            <span className="sr-only">Open main menu</span>
+            <FontAwesomeIcon icon={faBars} className="w-5 h-5" />
+          </button>
         </div>
 
         <div
@@ -59,7 +58,7 @@ const Navbar = () => {
                     href={`#${link.path}`}
                     scroll
                     className={cn(
-                      "block py-2 px-3  rounded md:bg-transparent  md:p-0  hover:text-blue-500 transition-all"
+                      "block py-2 px-3 rounded md:bg-transparent md:p-0 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
                     )}
                     aria-current="page"
                   >
@@ -76,7 +75,7 @@ const Navbar = () => {
             <Link
               href="https://github.com/Safeya-Yasien"
               target="_blank"
-              className="me-4 md:me-6 flex items-center text-xl transition hover:text-blue-400"
+              className="me-4 md:me-6 flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
               aria-label="go to github"
             >
               <FontAwesomeIcon icon={faGithub} />
@@ -87,7 +86,7 @@ const Navbar = () => {
             <Link
               href="https://www.linkedin.com/in/safeya-yasien-2ba9b4260/"
               target="_blank"
-              className="me-4 md:me-6 flex items-center text-xl  transition hover:text-blue-400"
+              className="me-4 md:me-6 flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
               aria-label="go to linkedin"
             >
               <FontAwesomeIcon icon={faLinkedinIn} />
