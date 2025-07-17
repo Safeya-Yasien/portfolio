@@ -31,9 +31,11 @@ const ProjectCard = ({
         height={1080}
         className="rounded-t-lg"
       />
-      <div className="p-5 flex flex-col justify-end flex-1">
+      <div className="p-5 flex flex-col justify-center flex-1">
         <Link href={live_demo} target="_blank">
-          <h3 className="mb-2 text-xl font-bold tracking-tight ">{title}</h3>
+          <h3 className="mb-2 text-xl font-bold tracking-tight capitalize">
+            {title}
+          </h3>
         </Link>
         <p className="mb-3 font-normal ">{description}</p>
         <div className="flex justify-between items-center">
