@@ -25,7 +25,7 @@ const HeroSection = () => {
             my confidence to tackle complex projects. Additionally, I completed
             an internship with Nerds Arena, where I gained hands-on experience
             working on real-world projects and deepened my practical
-            understanding of front-end development. Translate Ask ChatGPT
+            understanding of front-end development.
           </p>
 
           {/* education */}
