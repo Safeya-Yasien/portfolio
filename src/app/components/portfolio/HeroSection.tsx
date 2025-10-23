@@ -16,13 +16,16 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="leading-8 text-base">
-            I’m a front-end developer skilled in React, Next.js, TypeScript, and
-            Tailwind CSS. Recently, I’ve been expanding into back-end
-            development with Node.js, Express, and MongoDB to build full-stack
-            (MERN) applications. I gained hands-on experience through the ALX
-            and DEPI programs and an internship at Nerds Arena, working on
-            real-world projects that strengthened my technical and teamwork
-            skills.
+            My journey as a front-end developer is driven by a passion for
+            creating responsive and clean web applications. With expertise in
+            React, Redux Toolkit, Bootstrap, SASS, TypeScript, Next.js, and
+            Tailwind CSS, I focus on crafting engaging user experiences. The
+            12-month ALX program pushed me to expand my skills, while the DEPI
+            program further honed my front-end development expertise, building
+            my confidence to tackle complex projects. Additionally, I completed
+            an internship with Nerds Arena, where I gained hands-on experience
+            working on real-world projects and deepened my practical
+            understanding of front-end development. Translate Ask ChatGPT
           </p>
 
           {/* education */}
