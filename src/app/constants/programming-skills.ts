@@ -14,5 +14,9 @@ export const programmingSkills = [
   "Redux Toolkit",
   "Git",
   "GitHub",
-
+  "NodeJS",
+  "ExpressJS",
+  "MongoDB",
+  "WebSocket",
+  "Socket.io",
 ];

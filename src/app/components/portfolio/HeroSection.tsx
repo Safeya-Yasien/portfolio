@@ -12,7 +12,7 @@ const HeroSection = () => {
             Hi, I&apos;m Safeya Yasien,
             <br />
             <span className="text-blue-700 dark:text-blue-400">
-              Frontend Developer
+              Front-End Developer | Learning MERN Stack
             </span>
           </h1>
           <p className="leading-8 text-base">
