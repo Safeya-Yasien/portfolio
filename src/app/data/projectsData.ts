@@ -102,4 +102,14 @@ export const projectsData = [
     live_demo: "https://safeya-yasien.github.io/react-portfolio-template/",
     technologies: ["Vite", "React-Bootstrap", "SASS"],
   },
+  {
+    id: 10,
+    title: "Customer Management System Crud",
+    description: "React, Typescript, Node.js, Express, MongoDB",
+    image: "/projects/customer-management-system-crud.png",
+    github_link:
+      "https://github.com/Safeya-Yasien/customer-management-react-node",
+    live_demo: "https://customer-management-react-node.vercel.app/",
+    technologies: ["React", "Typescript", "Node.js", "Express", "MongoDB"],
+  },
 ];
