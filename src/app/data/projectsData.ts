@@ -1,13 +1,22 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Ocean",
-    description: "Next.js, Tailwind CSS",
-    image: "/projects/ocean.webp",
-    github_link: "https://github.com/Safeya-Yasien/ocean",
-    live_demo: "https://master--my-ocean.netlify.app/",
-    technologies: ["NextJs", "Tailwind"],
+    title: "e-commerce-mern-app",
+    description: "React, Typescript, Node.js, Express, MongoDB",
+    image: "/projects/e-commerce-mern-app.png",
+    github_link: "https://github.com/Safeya-Yasien/e-commerce-mern-app",
+    live_demo: "https://e-commerce-mern-app-phi.vercel.app/",
+    technologies: ["React", "Typescript", "Node.js", "Express", "MongoDB"],
   },
+  // {
+  //   id: 1,
+  //   title: "Ocean",
+  //   description: "Next.js, Tailwind CSS",
+  //   image: "/projects/ocean.webp",
+  //   github_link: "https://github.com/Safeya-Yasien/ocean",
+  //   live_demo: "https://master--my-ocean.netlify.app/",
+  //   technologies: ["NextJs", "Tailwind"],
+  // },
   {
     id: 2,
     title: "E-Commerce-Tsawq",
@@ -26,6 +35,15 @@ export const projectsData = [
   //   live_demo: "https://safeya-yasien.github.io/Apkly/",
   //   technologies: ["HTML", "CSS", "JS", "Bootstrap", "JQuery"],
   // },
+    {
+    id: 6,
+    title: "The Chef Show",
+    description: "React, Typescript, Tailwind CSS",
+    image: "/projects/the-chef-show.webp",
+    github_link: "https://github.com/Safeya-Yasien/the-chef-show",
+    live_demo: "https://the-chef-show.netlify.app/",
+    technologies: ["React", "Typescript", "Tailwind"],
+  },
   {
     id: 3,
     title: "Traveling",
@@ -56,15 +74,7 @@ export const projectsData = [
     technologies: ["NextTs", "Tailwind", "react-big-calendar", "recharts"],
   },
 
-  {
-    id: 6,
-    title: "The Chef Show",
-    description: "React, Typescript, Tailwind CSS",
-    image: "/projects/the-chef-show.webp",
-    github_link: "https://github.com/Safeya-Yasien/the-chef-show",
-    live_demo: "https://the-chef-show.netlify.app/",
-    technologies: ["React", "Typescript", "Tailwind"],
-  },
+
   // {
   //   id: 6,
   //   title: "Social links profile",
@@ -74,15 +84,15 @@ export const projectsData = [
   //   live_demo: "https://safeya-yasien.github.io/social-links-profile-main/",
   //   technologies: ["HTML", "CSS"],
   // },
-  {
-    id: 7,
-    title: "ToDo List",
-    description: "HTML, CSS,  JavaScript, SweetAlert2 and  Local Storage",
-    image: "/projects/todo-list.webp",
-    github_link: "https://github.com/Safeya-Yasien/to-do-list",
-    live_demo: "https://safeya-yasien.github.io/to-do-list/",
-    technologies: ["HTML", "CSS", "JS", "LocalStorage", "SweetAlert2"],
-  },
+  // {
+  //   id: 7,
+  //   title: "ToDo List",
+  //   description: "HTML, CSS,  JavaScript, SweetAlert2 and  Local Storage",
+  //   image: "/projects/todo-list.webp",
+  //   github_link: "https://github.com/Safeya-Yasien/to-do-list",
+  //   live_demo: "https://safeya-yasien.github.io/to-do-list/",
+  //   technologies: ["HTML", "CSS", "JS", "LocalStorage", "SweetAlert2"],
+  // },
   {
     id: 8,
     title: "Cart ReduxToolkit",
