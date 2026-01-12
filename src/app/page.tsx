@@ -4,6 +4,7 @@ import {
   HeroSection,
   MySkills,
   ProjectsSection,
+  UniqueSection,
 } from "./components/portfolio";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
       <div className="border-t-2 border-gray-400 dark:border-gray-600"></div>
       <MySkills />
       <div className="border-t-2 border-gray-400 dark:border-gray-600"></div>
-      {/* <ServicesSection /> */}
+      <UniqueSection />
+      <div className="border-t-2 border-gray-400 dark:border-gray-600"></div>
       <ProjectsSection />
       <div className="border-t-2 border-gray-400 dark:border-gray-600"></div>
       <CertificationsSection />

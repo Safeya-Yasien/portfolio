@@ -1,27 +1,17 @@
-export const servicesData = [
+export const uniques = [
   {
-    title: "Web Development",
+    title: "Pixel-Perfect Designs",
     description:
-      "Leverage modern web technologies to build fast, secure, and scalable websites that cater to your business goals. From single-page applications to complex platforms, I ensure clean, maintainable code and optimal performance.",
+      "I obsess over every detail in the UI, ensuring that the final product matches the design mockups exactly. From spacing, typography, to responsive layouts, nothing is overlooked, making sure the user experience is flawless and visually consistent.",
   },
   {
-    title: "Web Design",
+    title: "Deadline Discipline",
     description:
-      "Craft visually appealing, user-centric designs that prioritize seamless navigation and exceptional user experiences. I turn your ideas into beautiful, responsive web designs with a focus on accessibility and aesthetics.",
+      "I value time as much as quality. When we agree on a project timeline, I stick to it without compromise. You can rely on me to deliver work promptly, even under tight schedules, without sacrificing attention to detail.",
   },
   {
-    title: "Responsive Design",
+    title: "Organized Code",
     description:
-      "Ensure your website looks great and functions smoothly across all devices. Using mobile-first development and responsive design principles, I create flexible layouts that adapt to various screen sizes while maintaining usability and performance.",
-  },
-  {
-    title: "Front-End Frameworks & Libraries",
-    description:
-      "Harness the power of modern front-end frameworks like React, along with state management tools like Redux. I specialize in building scalable, component-based applications that are easy to maintain and extend over time.",
-  },
-  {
-    title: "Interactive UI Development",
-    description:
-      "Focus on creating responsive, visually appealing, and highly interactive UIs using advanced CSS techniques (SCSS) and frameworks like Bootstrap and Tailwind.",
+      "I write code that’s not just functional, but clean, structured, and easy to maintain. Every component, function, and file is organized for readability, so adding features or fixing bugs in the future is seamless and efficient.",
   },
 ];
