@@ -4,7 +4,7 @@ import { Cairo } from "next/font/google";
 
 import { Footer, Navbar } from "./components/common";
 
-import "./globals.scss";
+import "./globals.css";
 
 const cairo = Cairo({
   weight: ["400", "500", "700"],
@@ -24,14 +24,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cairo.variable} scroll-smooth`}>
-      <body className="min-h-screen flex flex-col bg-white dark:bg-neutral-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-        <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
+    <html
+      lang="en"
+      className={`${cairo.variable} scroll-smooth`}
+      suppressHydrationWarning
+    >
+        <body className="min-h-screen flex flex-col bg-white dark:bg-neutral-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
           <Navbar />
           <main className="wrapper pt-16">{children}</main>
           <Footer />
-        </ThemeProvider>
-      </body>
+      </ThemeProvider>
+        </body>
     </html>
   );
 }

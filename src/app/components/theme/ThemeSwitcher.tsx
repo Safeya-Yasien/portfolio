@@ -1,32 +1,25 @@
-"  use client";
-import React, { useEffect, useState } from "react";
+"use client";
+
+import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
+import { Moon, Sun } from "lucide-react";
 
 const ThemeSwitcher = () => {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
+  useEffect(() => setMounted(true), []);
   if (!mounted) return null;
 
-  const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
-
-  const icon = theme == "dark" ? faSun : faMoon;
+  const isDark = resolvedTheme === "dark";
 
   return (
     <button
-      onClick={toggleTheme}
-      className="flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      className="cursor-pointer flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
       aria-label="toggle theme"
     >
-      <FontAwesomeIcon icon={icon} className="w-5 h-5" />
+      {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
     </button>
   );
 };

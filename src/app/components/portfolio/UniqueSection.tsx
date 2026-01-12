@@ -9,7 +9,7 @@ export default function UniqueSection() {
         {uniques.map((item) => (
           <div
             key={item.title}
-            className="p-6 border rounded-lg shadow hover:shadow-lg transition text-blue-900 dark:text-blue-400"
+            className="p-6 border rounded-lg shadow hover:shadow-lg transition text-blue-900 dark:text-blue-400 relative overflow-hidden"
           >
             {/* icons */}
             <h3 className="text-xl font-semibold mb-4">{item.title}</h3>

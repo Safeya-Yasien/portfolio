@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import CustomTitle from "./CustomTitle";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import { Github, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   const [result, setResult] = useState("");
@@ -57,7 +56,7 @@ const ContactSection = () => {
               className="me-4 md:me-6 flex items-center text-xl"
               aria-label="go to github"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <Github />
             </Link>
             <Link
               href="https://www.linkedin.com/in/safeya-yasien-2ba9b4260/"
@@ -65,7 +64,7 @@ const ContactSection = () => {
               className="me-4 md:me-6 flex items-center text-xl"
               aria-label="go to linkedin"
             >
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <Linkedin />
             </Link>
           </div>
         </div>

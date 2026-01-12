@@ -1,5 +1,4 @@
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { GraduationCap } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -28,10 +27,7 @@ const HeroSection = () => {
           {/* education */}
           <div className="bg-gray-100 dark:bg-neutral-800/40 border border-gray-300 dark:border-neutral-700 p-6 rounded-xl shadow-sm max-w-xl transition-colors">
             <h2 className="font-semibold text-lg tracking-wide flex items-center gap-2 mb-2 text-blue-700 dark:text-blue-400">
-              <FontAwesomeIcon
-                icon={faGraduationCap}
-                className="text-xl w-6 h-6"
-              />
+              <GraduationCap className="text-xl w-6 h-6" />
               Education
             </h2>
             <p className="text-base sm:text-lg">

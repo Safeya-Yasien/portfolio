@@ -1,8 +1,6 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight, Github } from "lucide-react";
 
 type TProjectCardProps = {
   title: string;
@@ -56,7 +54,7 @@ const ProjectCard = ({
             className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white bg-blue-900 rounded-lg hover:bg-blue-800 transition"
           >
             Live Demo
-            <FontAwesomeIcon icon={faArrowRightLong} className="mt-1" />
+            <ArrowRight className="mt-1" />
           </Link>
 
           <Link
@@ -65,7 +63,7 @@ const ProjectCard = ({
             className="text-xl hover:text-blue-600 dark:hover:text-blue-400"
             aria-label="Go to GitHub"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <Github />
           </Link>
         </div>
       </div>

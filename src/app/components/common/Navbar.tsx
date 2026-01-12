@@ -7,9 +7,7 @@ import cn from "@/lib/utlis";
 
 import { navLinks } from "@/app/constants/navLinks";
 import ThemeSwitcher from "../theme/ThemeSwitcher";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Github, Linkedin, Menu } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +40,7 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             <span className="sr-only">Open main menu</span>
-            <FontAwesomeIcon icon={faBars} className="w-5 h-5" />
+            <Menu className="w-5 h-5" />
           </button>
         </div>
 
@@ -69,6 +67,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
+
         <ul className="hidden md:flex flex-wrap items-center text-sm font-medium  sm:mt-0">
           {/* github */}
           <li>
@@ -78,7 +77,7 @@ const Navbar = () => {
               className="me-4 md:me-6 flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
               aria-label="go to github"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <Github />
             </Link>
           </li>
           {/* linkedin */}
@@ -89,10 +88,9 @@ const Navbar = () => {
               className="me-4 md:me-6 flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
               aria-label="go to linkedin"
             >
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <Linkedin />
             </Link>
           </li>
-          {/* ThemeSwitcher */}
           <li>
             <ThemeSwitcher />
           </li>
