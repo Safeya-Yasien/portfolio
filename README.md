@@ -44,7 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
-<!--  -->
+<!--   -->
 ## enhance navbar divide it into small parts
 ## enhance navbar icons
 ## enhance unique section by adding animation to cards
