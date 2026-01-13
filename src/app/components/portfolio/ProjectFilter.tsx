@@ -1,18 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const filterOptions: string[] = [
-  "All",
-  "CRA",
-  "Vite",
-  "Next.js",
-  "Bootstrap",
-  "Tailwind",
-  "TS",
-  "JS",
-  "Redux",
-  "Context",
-];
+const filterOptions: string[] = ["All", "Next.js", "React", "Html"];
 
 interface ProjectFilterProps {
   onFilterChange: (filter: string) => void;
