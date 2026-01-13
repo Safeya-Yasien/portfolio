@@ -2,7 +2,7 @@ import { GraduationCap } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="about" className="">
+    <section id="about" className="mt-8">
       <div className="">
         {/* Information Section */}
         <div className=" col-start-2 col-span-10 lg:col-start-4 lg:col-span-6 flex flex-col  space-y-6">
