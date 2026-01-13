@@ -35,7 +35,7 @@ export const projectsData = [
   //   live_demo: "https://safeya-yasien.github.io/Apkly/",
   //   technologies: ["HTML", "CSS", "JS", "Bootstrap", "JQuery"],
   // },
-    {
+  {
     id: 6,
     title: "The Chef Show",
     description: "React, Typescript, Tailwind CSS",
@@ -67,13 +67,12 @@ export const projectsData = [
   {
     id: 5,
     title: "School Management Dashboard",
-    description: "Next.JS, Typescript, Tailwind css",
+    description: "Next.js, Typescript, Tailwind css",
     image: "/projects/next-dashboard.webp",
     github_link: "https://github.com/Safeya-Yasien/next-dashboard-ui",
     live_demo: "https://next-dashboard-ui-mocha.vercel.app/admin",
-    technologies: ["NextTs", "Tailwind", "react-big-calendar", "recharts"],
+    technologies: ["Next.js", "Tailwind", "react-big-calendar", "recharts"],
   },
-
 
   // {
   //   id: 6,

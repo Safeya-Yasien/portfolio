@@ -6,16 +6,18 @@ import ProjectCard from "./ProjectCard";
 import ProjectFilter from "./ProjectFilter";
 
 const ProjectsSection = () => {
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("all");
+
+  const normalize = (str: string) => str.toLowerCase().replace(/[\s.-]/g, "");
 
   const filterProjects = () => {
-    if (filter === "All") {
+    if (normalize(filter) === "all") {
       return projectsData;
-    } else {
-      return projectsData.filter((project) =>
-        project.technologies.includes(filter)
-      );
     }
+
+    return projectsData.filter((project) =>
+      project.technologies.some((tech) => normalize(tech) === normalize(filter))
+    );
   };
 
   return (
