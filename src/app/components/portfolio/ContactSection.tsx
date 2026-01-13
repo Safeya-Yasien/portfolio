@@ -97,7 +97,7 @@ const ContactSection = () => {
             <textarea
               id="message"
               name="message"
-              className=" focus-visible:outline-none text-sm dark:rounded-lg   block w-full p-2.5 dark:bg-black border-b dark:border dark:border-gray-600 placeholder:text-black dark:placeholder:text-white dark:text-white "
+              className="resize-none focus-visible:outline-none text-sm dark:rounded-lg   block w-full p-2.5 dark:bg-black border-b dark:border dark:border-gray-600 placeholder:text-black dark:placeholder:text-white dark:text-white "
               placeholder="Leave a comment..."
               required
             />
