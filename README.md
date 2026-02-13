@@ -49,3 +49,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## enhance navbar icons
 ## enhance unique section by adding animation to cards
 ## enhance projects section by adding animation to cards
+
+## Use a Typewriter effect for your titles (e.g., "Front-End Developer", "React Enthusiast", "MERN Stack Learner").
+## add resume
+## display select in projects display buttons instead of select options
+## add copy for email in contact section    
+## validation in contact form
+## add animation

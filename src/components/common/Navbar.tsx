@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import cn from "@/lib/utlis";
 
-import { navLinks } from "@/app/constants/navLinks";
+import { navLinks } from "@/constants/navLinks";
 import ThemeSwitcher from "../theme/ThemeSwitcher";
 import { Github, Linkedin, Menu } from "lucide-react";
 
@@ -56,7 +56,7 @@ const Navbar = () => {
                     href={`#${link.path}`}
                     scroll
                     className={cn(
-                      "block py-2 px-3 rounded md:bg-transparent md:p-0 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
+                      "block py-2 px-3 rounded md:bg-transparent md:p-0 hover:text-blue-600 dark:hover:text-blue-400 transition-all",
                     )}
                     aria-current="page"
                   >

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Cairo } from "next/font/google";
 
-import { Footer, Navbar } from "./components/common";
+import { Footer, Navbar } from "../components/common";
 
 import "./globals.css";
 
@@ -29,13 +29,13 @@ export default function RootLayout({
       className={`${cairo.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-        <body className="min-h-screen flex flex-col bg-white dark:bg-neutral-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-      <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
+      <body className="min-h-screen flex flex-col bg-white dark:bg-neutral-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+        <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
           <Navbar />
           <main className="wrapper pt-16">{children}</main>
           <Footer />
-      </ThemeProvider>
-        </body>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

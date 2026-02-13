@@ -1,4 +1,4 @@
-import { uniques } from "@/app/data/servicesData";
+import { uniques } from "@/data/servicesData";
 import CustomTitle from "./CustomTitle";
 
 export default function UniqueSection() {
