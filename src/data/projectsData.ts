@@ -37,6 +37,18 @@ export const projectsData: Project[] = [
     technologies: ["React", "Node.js", "Express", "MongoDB", "TypeScript"],
     featured: true,
   },
+  {
+    id: 20,
+    title: "Aura Estates",
+    category: "Frontend",
+    description:
+      "A high-end architectural real estate platform focused on editorial minimalist design. Features a custom scroll-spy navigation, dark/light mode transitions, and a sophisticated Zig-Zag grid for luxury property portfolios.",
+    image: "/projects/aura-estates.png",
+    github_link: "https://github.com/Safeya-Yasien",
+    live_demo: "https://astro-aura-estates.netlify.app/",
+    technologies: ["Astro", "Tailwind", "TypeScript"],
+    featured: true,
+  },
 
   {
     id: 12,
@@ -121,7 +133,6 @@ export const projectsData: Project[] = [
       "https://github.com/Safeya-Yasien/customer-management-react-node",
     live_demo: "https://customer-management-react-node.vercel.app/",
     technologies: ["React", "Typescript", "Node.js", "Express", "MongoDB"],
-    featured: true,
   },
 
   {
