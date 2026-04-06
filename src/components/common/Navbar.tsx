@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 import cn from "@/lib/utlis";
@@ -54,6 +54,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link
                     href={`#${link.path}`}
+                    onClick={toggleMenu}
                     scroll
                     className={cn(
                       "block py-2 px-3 rounded md:bg-transparent md:p-0 hover:text-blue-600 dark:hover:text-blue-400 transition-all",
@@ -68,6 +69,7 @@ const Navbar = () => {
           </ul>
         </div>
 
+        {/* social links */}
         <ul className="hidden md:flex flex-wrap items-center text-sm font-medium  sm:mt-0">
           {/* github */}
           <li>

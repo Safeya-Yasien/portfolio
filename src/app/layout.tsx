@@ -27,6 +27,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${cairo.variable} scroll-smooth`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <body className="min-h-screen flex flex-col bg-white dark:bg-neutral-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
