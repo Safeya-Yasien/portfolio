@@ -53,7 +53,7 @@ const Navbar = () => {
               return (
                 <li key={index}>
                   <Link
-                    href={`#${link.path}`}
+                    href={`${link.path}`}
                     onClick={toggleMenu}
                     scroll
                     className={cn(
