@@ -58,7 +58,7 @@ export const projectsData: Project[] = [
       "A responsive portfolio template built with Tailwind CSS and Next.js.",
     image: "/projects/portfolio-light.png",
     github_link: "https://github.com/Safeya-Yasien/portfolio",
-    live_demo: "https://safeya-yasien-portfolio.netlify.app/",
+    live_demo: "https://safeya-yasien.netlify.app/",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
     featured: true,
   },

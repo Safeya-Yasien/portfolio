@@ -1,6 +1,6 @@
 ## Live Demo
 
-https://safeya-yasien-portfolio.netlify.app/
+https://safeya-yasien.netlify.app/
 <br>
 <br>
 https://portfolio-one-xi-25.vercel.app/
@@ -8,7 +8,6 @@ https://portfolio-one-xi-25.vercel.app/
 <br>
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 
 ## Getting Started
 
@@ -45,17 +44,24 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-
-
 <!--   -->
+
 ## enhance navbar divide it into small parts
+
 ## enhance navbar icons
+
 ## enhance unique section by adding animation to cards
+
 ## enhance projects section by adding animation to cards
 
 ## Use a Typewriter effect for your titles (e.g., "Front-End Developer", "React Enthusiast", "MERN Stack Learner").
+
 ## add resume
+
 ## display select in projects display buttons instead of select options
-## add copy for email in contact section    
+
+## add copy for email in contact section
+
 ## validation in contact form
+
 ## add animation
