@@ -1,24 +1,24 @@
-"use client";
+import { CustomTitle } from "@/components/portfolio";
+import { Metadata } from "next";
+import { pageKeywords, siteConfig } from "@/lib/seo";
+import ProjectsClient from "@/components/portfolio/projects/ProjectsClient";
 
-import { useState, useMemo } from "react";
-import { projectsData } from "@/data/projectsData";
-import { CustomTitle, ProjectCard } from "@/components/portfolio";
-import CategoryFilter from "@/components/portfolio/CategoryFilter";
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "Explore Safeya Yasien's frontend projects built with React, Next.js, TypeScript, and Tailwind CSS.",
+  keywords: pageKeywords.projects,
+  alternates: { canonical: "/projects" },
+  openGraph: {
+    title: `Projects | ${siteConfig.name}`,
+    description:
+      "A showcase of frontend projects — React apps, Next.js sites, and UI experiments.",
+    url: `${siteConfig.url}/projects`,
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630 }],
+  },
+};
 
 const ProjectsPage = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
-
-  const categories = useMemo(
-    () => ["All", ...Array.from(new Set(projectsData.map((p) => p.category)))],
-    [],
-  );
-
-  const filteredProjects = useMemo(() => {
-    return projectsData.filter((project) =>
-      activeCategory === "All" ? true : project.category === activeCategory,
-    );
-  }, [activeCategory]);
-
   return (
     <main className="min-h-screen pt-24 pb-20 px-4">
       <div className="max-w-7xl mx-auto">
@@ -31,35 +31,7 @@ const ProjectsPage = () => {
           </p>
         </div>
 
-        {/* Filter Section */}
-        <div className="mb-10">
-          <CategoryFilter
-            categories={categories}
-            activeCategory={activeCategory}
-            onCategoryChange={setActiveCategory}
-          />
-
-          <p className="text-center text-sm text-gray-400 mt-4 italic">
-            Showing {filteredProjects.length}{" "}
-            {filteredProjects.length === 1 ? "project" : "projects"}
-          </p>
-        </div>
-
-        {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} {...project} />
-          ))}
-        </div>
-
-        {/* Empty State */}
-        {filteredProjects.length === 0 && (
-          <div className="text-center py-20">
-            <p className="text-xl text-gray-500">
-              No projects found in this category.
-            </p>
-          </div>
-        )}
+        <ProjectsClient />
       </div>
     </main>
   );

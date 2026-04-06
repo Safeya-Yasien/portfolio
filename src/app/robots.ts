@@ -1,6 +1,8 @@
 export default function robots() {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://yoursite.com/sitemap.xml",
+    sitemap: "https://safeya-yasien.netlify.app/sitemap.xml",
+        host: "https://safeya-yasien.netlify.app",
+
   };
 }

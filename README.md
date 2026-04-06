@@ -65,3 +65,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## validation in contact form
 
 ## add animation
+
+# add img to cloudinary 
+
+# make src not seen in inspect and env using Proxied route
+
+
+<!--  -->

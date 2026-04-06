@@ -1,7 +1,19 @@
 export default function sitemap() {
-  return [
-    { url: 'https://yoursite.com', lastModified: new Date() },
-    { url: 'https://yoursite.com/about', lastModified: new Date() },
-  ]
-}
+  const baseUrl = "https://safeya-yasien.netlify.app";
 
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
+    },
+
+    {
+      url: `${baseUrl}/projects`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+  ];
+}

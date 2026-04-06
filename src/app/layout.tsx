@@ -5,6 +5,7 @@ import { Cairo } from "next/font/google";
 import { Footer, Navbar } from "../components/common";
 
 import "./globals.css";
+import { pageKeywords, siteConfig } from "@/lib/seo";
 
 const cairo = Cairo({
   weight: ["400", "500", "700"],
@@ -14,8 +15,52 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "Safeya Yasien",
-  description: "Safeya Yasien Portfolio, Frontend Developer",
+  title: {
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  keywords: pageKeywords.home,
+  authors: [{ name: siteConfig.name }],
+  creator: siteConfig.name,
+  metadataBase: new URL(siteConfig.url),
+  alternates: { canonical: "/" },
+  icons: {
+    icon: siteConfig.favicon,
+    shortcut: siteConfig.favicon,
+    apple: siteConfig.favicon,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteConfig.url,
+    siteName: `${siteConfig.name} Portfolio`,
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} – Frontend Developer Portfolio`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+    },
+  },
 };
 
 export default function RootLayout({

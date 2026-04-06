@@ -9,6 +9,16 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: "/dpc9azwnt/image/upload/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;

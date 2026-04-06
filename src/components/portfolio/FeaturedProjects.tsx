@@ -1,7 +1,7 @@
 "use client";
 import CustomTitle from "./CustomTitle";
 import { projectsData } from "@/data/projectsData";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./projects/ProjectCard";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useMemo, useState } from "react";
