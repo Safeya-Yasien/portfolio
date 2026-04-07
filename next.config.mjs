@@ -19,6 +19,15 @@ const nextConfig = {
       },
     ],
   },
+
+  async rewrites() {
+    return [
+      {
+        source: "/og-image.png",
+        destination: "/ogImage",
+      },
+    ];
+  },
 };
 
 export default nextConfig;

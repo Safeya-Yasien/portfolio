@@ -66,9 +66,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## add animation
 
-# add img to cloudinary 
-
-# make src not seen in inspect and env using Proxied route
 
 
-<!--  -->
+# add skeleton to project card skeleton
+# add loading page to home page
+# add error page in home page
+# add error page in projects page and home page
+
+# view all rpojects color sufficent background 
+
+# facebook, linkedin, twttier img not appears

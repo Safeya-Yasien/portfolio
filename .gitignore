@@ -39,4 +39,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-public/favicon.ico
+public/favicon.svg
+src/app/favicon.ico
