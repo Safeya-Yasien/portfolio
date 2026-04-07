@@ -4,8 +4,8 @@ export const siteConfig = {
   description:
     "A passionate Frontend Developer crafting engaging web experiences with React, Tailwind CSS, and TypeScript. Explore my portfolio to see how I blend creativity and code to bring ideas to life.",
   url: "https://safeya-yasien.netlify.app",
-  ogImage: "/ogImage",
-  favicon: "/favicon",
+  ogImage: "/og-image.png",
+  favicon: "/favicon.ico",
 };
 
 export const siteKeywords: string[] = [

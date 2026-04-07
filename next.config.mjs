@@ -9,25 +9,6 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
-
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "res.cloudinary.com",
-        pathname: "/dpc9azwnt/image/upload/**",
-      },
-    ],
-  },
-
-  async rewrites() {
-    return [
-      {
-        source: "/og-image.png",
-        destination: "/ogImage",
-      },
-    ];
-  },
 };
 
 export default nextConfig;
