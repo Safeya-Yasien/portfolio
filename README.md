@@ -76,3 +76,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # view all rpojects color sufficent background 
 
 # facebook, linkedin, twttier img not appears
+
+ admin@test.com
+password123

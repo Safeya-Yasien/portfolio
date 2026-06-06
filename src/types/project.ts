@@ -1,8 +1,18 @@
-export type Category =
-  | "Fullstack"
-  | "Frontend"
-  | "UI/UX"
-  | "Backend";
+export type Category = "Fullstack" | "Frontend" | "UI/UX" | "Backend";
+
+export type EngagementType =
+  | "Freelance"
+  | "Personal"
+  | "Internship"
+  | "University"
+  | "Scholarship";
+
+export type ScholarshipProgram =
+  | "DEPI"
+  | "ITI"
+  | "ALX"
+  | "Orange Digital Center"
+  | "Other";
 
 export interface Project {
   id: number;
@@ -14,7 +24,8 @@ export interface Project {
   live_demo: string;
   technologies: string[];
   featured?: boolean;
-  engagementType?: "Freelance" | "Personal" | "Internship";
+  engagementType?: EngagementType;
+  scholarshipProgram?: ScholarshipProgram;
   collaborationType?: "Solo" | "Team";
   role?: string;
   teamSize?: number;
