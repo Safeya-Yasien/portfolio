@@ -6,15 +6,18 @@ export const projectsData: Project[] = [
     title: "E-Commerce-Tsawq",
     category: "Frontend",
     description:
-      "Modern E-commerce UI built with high-quality Shadcn components and Tailwind CSS.",
+      "Modern E-commerce UI built with high-quality Shadcn components and Tailwind CSS. Tailored for client use to showcase products dynamically.",
     image: "/projects/ecommerce-tsawq.webp",
     github_link: "https://github.com/Safeya-Yasien/ecommerece-tsawq",
     live_demo: "https://ecommerece-tsawq.netlify.app/",
     technologies: ["React", "Tailwind", "Shadcn"],
     featured: true,
+    engagementType: "Internship",
+    collaborationType: "Solo",
+    role: "Frontend Developer",
   },
   {
-    id: 6,
+    id: 2,
     title: "The Chef Show",
     category: "Frontend",
     description:
@@ -24,9 +27,12 @@ export const projectsData: Project[] = [
     live_demo: "https://the-chef-show.netlify.app/",
     technologies: ["React", "Typescript", "Tailwind"],
     featured: true,
+    engagementType: "Internship",
+    collaborationType: "Solo",
+    role: "Frontend Developer",
   },
   {
-    id: 2,
+    id: 3,
     title: "E-commerce MERN App",
     category: "Fullstack",
     description:
@@ -36,9 +42,12 @@ export const projectsData: Project[] = [
     live_demo: "https://e-commerce-mern-app-phi.vercel.app/",
     technologies: ["React", "Node.js", "Express", "MongoDB", "TypeScript"],
     featured: true,
+    engagementType: "Personal",
+    collaborationType: "Solo",
+    role: "Fullstack Developer",
   },
   {
-    id: 20,
+    id: 4,
     title: "Aura Estates",
     category: "Frontend",
     description:
@@ -48,82 +57,12 @@ export const projectsData: Project[] = [
     live_demo: "https://astro-aura-estates.netlify.app/",
     technologies: ["Astro", "Tailwind", "TypeScript"],
     featured: true,
-  },
-
-  {
-    id: 12,
-    title: "Portfolio",
-    category: "Frontend",
-    description:
-      "A responsive portfolio template built with Tailwind CSS and Next.js.",
-    image: "/projects/portfolio-light.png",
-    github_link: "https://github.com/Safeya-Yasien/portfolio",
-    live_demo: "https://safeya-yasien.netlify.app/",
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
-    featured: true,
-  },
-
-  {
-    id: 13,
-    title: "Fresh Food",
-    category: "Static",
-    description:
-      "A complete shopping experience with secure authentication and payment integration.",
-    image: "/projects/fresh-food.png",
-    github_link: "https://github.com/Safeya-Yasien/fresh_food",
-    live_demo: "https://safeya-yasien.github.io/Fresh_Food/",
-    technologies: ["HTML", "CSS", "JS"],
-    featured: true,
-  },
-
-  {
-    id: 3,
-    title: "Traveling",
-    category: "Static",
-    description:
-      "A landing page for travel enthusiasts using Local Storage to save preferences.",
-    image: "/projects/traveling.webp",
-    github_link: "https://github.com/Safeya-Yasien/traveling",
-    live_demo: "https://safeya-yasien.github.io/traveling/",
-    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
+    role: "Frontend Developer",
   },
   {
-    id: 4,
-    title: "Product Management System Crud",
-    category: "Static",
-    description:
-      "A robust CRUD application for managing inventory and products directly in the browser.",
-    image: "/projects/crud.webp",
-    github_link:
-      "https://github.com/Safeya-Yasien/product-management-system-crud",
-    live_demo:
-      "https://safeya-yasien.github.io/product-management-system-crud/",
-    technologies: ["HTML", "CSS", "JS", "LocalStorage"],
-  },
-  {
-    id: 8,
-    title: "Cart ReduxToolkit",
-    category: "Frontend",
-    description:
-      "State management demonstration using Redux Toolkit with a focus on shopping cart logic.",
-    image: "/projects/cart_reduxToolkit.webp",
-    github_link: "https://github.com/Safeya-Yasien/Cart_ReduxToolkit",
-    live_demo: "https://safeya-yasien.github.io/Cart_ReduxToolkit/",
-    technologies: ["React", "ReduxToolkit", "React-Bootstrap"],
-  },
-  {
-    id: 9,
-    title: "Portfolio Template",
-    category: "Frontend",
-    description:
-      "A reusable, responsive portfolio template built with Vite and SCSS.",
-    image: "/projects/portfolio_template.webp",
-    github_link: "https://github.com/Safeya-Yasien/react-portfolio-template",
-    live_demo: "https://safeya-yasien.github.io/react-portfolio-template/",
-    technologies: ["Vite", "React-Bootstrap", "SASS"],
-  },
-  {
-    id: 10,
+    id: 5,
     title: "Customer Management System Crud",
     category: "Fullstack",
     description:
@@ -133,10 +72,95 @@ export const projectsData: Project[] = [
       "https://github.com/Safeya-Yasien/customer-management-react-node",
     live_demo: "https://customer-management-react-node.vercel.app/",
     technologies: ["React", "Typescript", "Node.js", "Express", "MongoDB"],
+    featured: true,
+    engagementType: "Personal",
+    collaborationType: "Solo",
+    role: "Fullstack Developer",
   },
-
+  {
+    id: 6,
+    title: "Portfolio",
+    category: "Frontend",
+    description:
+      "A responsive portfolio template built with Tailwind CSS and Next.js.",
+    image: "/projects/portfolio-light.png",
+    github_link: "https://github.com/Safeya-Yasien/portfolio",
+    live_demo: "https://safeya-yasien.netlify.app/",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
+    featured: true,
+    engagementType: "Personal",
+    collaborationType: "Solo",
+  },
+  {
+    id: 7,
+    title: "Fresh Food",
+    category: "Frontend",
+    description:
+      "A complete food showcasing static website with smooth layout features.",
+    image: "/projects/fresh-food.png",
+    github_link: "https://github.com/Safeya-Yasien/fresh_food",
+    live_demo: "https://safeya-yasien.github.io/Fresh_Food/",
+    technologies: ["HTML", "CSS", "JS"],
+    featured: true,
+    engagementType: "Personal",
+    collaborationType: "Solo",
+  },
+  {
+    id: 8,
+    title: "Traveling",
+    category: "Frontend",
+    description:
+      "A landing page for travel enthusiasts using Local Storage to save preferences.",
+    image: "/projects/traveling.webp",
+    github_link: "https://github.com/Safeya-Yasien/traveling",
+    live_demo: "https://safeya-yasien.github.io/traveling/",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
+  },
+  {
+    id: 9,
+    title: "Product Management System Crud",
+    category: "Frontend",
+    description:
+      "A robust CRUD application for managing inventory and products directly in the browser.",
+    image: "/projects/crud.webp",
+    github_link:
+      "https://github.com/Safeya-Yasien/product-management-system-crud",
+    live_demo:
+      "https://safeya-yasien.github.io/product-management-system-crud/",
+    technologies: ["HTML", "CSS", "JS", "LocalStorage"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
+  },
+  {
+    id: 10,
+    title: "Cart ReduxToolkit",
+    category: "Frontend",
+    description:
+      "State management demonstration using Redux Toolkit with a focus on shopping cart logic.",
+    image: "/projects/cart_reduxToolkit.webp",
+    github_link: "https://github.com/Safeya-Yasien/Cart_ReduxToolkit",
+    live_demo: "https://safeya-yasien.github.io/Cart_ReduxToolkit/",
+    technologies: ["React", "ReduxToolkit", "React-Bootstrap"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
+  },
   {
     id: 11,
+    title: "Portfolio Template",
+    category: "Frontend",
+    description:
+      "A reusable, responsive portfolio template built with Vite and SCSS.",
+    image: "/projects/portfolio_template.webp",
+    github_link: "https://github.com/Safeya-Yasien/react-portfolio-template",
+    live_demo: "https://safeya-yasien.github.io/react-portfolio-template/",
+    technologies: ["Vite", "React-Bootstrap", "SASS"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
+  },
+  {
+    id: 12,
     title: "Education Landing Page",
     category: "UI/UX",
     description:
@@ -146,27 +170,35 @@ export const projectsData: Project[] = [
     live_demo:
       "https://www.figma.com/design/oWwxBJtGzw7Qya51brt4MQ/landing-page?node-id=1-190",
     technologies: ["Figma", "UI/UX", "Color Theory"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
   },
   {
-    id: 14,
+    id: 13,
     title: "Car Showroom",
-    category: "Static",
+    category: "Frontend",
     description:
-      "A multi-page Car Showroom website built with HTML5 and CSS3. The project features a comprehensive navigation system (Home, Products, Services, Team, etc.). It focuses on clean typography, professional layouts, and a user-friendly interface for browsing automotive inventory.",
+      "A multi-page Car Showroom website built with HTML5 and CSS3. Features a comprehensive navigation system and auto-showroom layouts.",
     image: "/projects/car-showroom.png",
     github_link: "https://github.com/Safeya-Yasien/Car_Showroom",
     live_demo: "https://safeya-yasien.github.io/Car_Showroom/",
     technologies: ["HTML", "CSS", "JS"],
+    engagementType: "Personal",
+    collaborationType: "Team",
+    role: "Frontend Developer",
+    teamSize: 2,
   },
   {
-    id: 15,
+    id: 14,
     title: "E-commerce Single Page Showcase",
-    category: "Static",
+    category: "Frontend",
     description:
-      "A responsive one-page web app built with HTML, CSS, JavaScript, Tailwind CSS, and FontAwesome. It displays product details—sizes, colors, price, reviews—and includes a New Arrivals section for the latest products.",
+      "A responsive one-page web app built with HTML, CSS, JavaScript, Tailwind CSS, and FontAwesome. Displays product details with size/color filters.",
     image: "/projects/e-commerce-single-page.png",
     github_link: "https://github.com/Safeya-Yasien/e-commerce-single-page",
     live_demo: "https://safeya-yasien.github.io/e-commerce-single-page/",
     technologies: ["HTML", "JS", "Tailwind CSS"],
+    engagementType: "Personal",
+    collaborationType: "Solo",
   },
 ];
