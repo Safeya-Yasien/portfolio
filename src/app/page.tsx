@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import {
   CertificationsSection,
-  ContactSection,
   HeroSection,
   MySkills,
   FeaturedProjects,
@@ -44,8 +43,6 @@ export default function Home() {
       <FeaturedProjects />
       <div className="border-t-2 border-gray-400 dark:border-gray-600"></div>
       <CertificationsSection />
-      <div className="border-t-2 border-gray-400 dark:border-gray-600"></div>
-      <ContactSection />
     </>
   );
 }
