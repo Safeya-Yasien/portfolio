@@ -1,7 +1,18 @@
 // components/ProjectCard.tsx
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Github, Briefcase, User, Users, Cpu } from "lucide-react";
+import {
+  ArrowRight,
+  Github,
+  Briefcase,
+  User,
+  Users,
+  Cpu,
+  GraduationCap,
+  Building2,
+  BookOpen,
+} from "lucide-react";
+import { EngagementType, ScholarshipProgram } from "@/types/project";
 
 type TProjectCardProps = {
   title: string;
@@ -11,10 +22,11 @@ type TProjectCardProps = {
   live_demo: string;
   category: string;
   technologies: string[];
-  engagementType?: "Freelance" | "Personal";
-  collaborationType?: "Solo" | "Team";
   role?: string;
   teamSize?: number;
+  engagementType?: EngagementType | "";
+  scholarshipProgram?: ScholarshipProgram;
+  collaborationType?: "Solo" | "Team";
 };
 
 const ProjectCard = ({
@@ -26,9 +38,10 @@ const ProjectCard = ({
   category,
   technologies,
   engagementType = "Personal",
-  collaborationType = "Solo",
+  scholarshipProgram,
   role,
   teamSize,
+  collaborationType = "Solo",
 }: TProjectCardProps) => {
   const isUIUX = category === "UI/UX";
 
@@ -57,6 +70,25 @@ const ProjectCard = ({
                 Freelance
               </span>
             )}
+            {engagementType === "Scholarship" && (
+              <span className="bg-purple-600/90 text-white backdrop-blur-md text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider shadow-sm flex items-center gap-1">
+                <GraduationCap size={10} />
+                {scholarshipProgram ?? "Scholarship"}
+              </span>
+            )}
+            {engagementType === "Internship" && (
+              <span className="bg-amber-600/90 text-white backdrop-blur-md text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider shadow-sm flex items-center gap-1">
+                <Building2 size={10} />
+                Internship
+              </span>
+            )}
+            {engagementType === "University" && (
+              <span className="bg-sky-600/90 text-white backdrop-blur-md text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider shadow-sm flex items-center gap-1">
+                <BookOpen size={10} />
+                University
+              </span>
+            )}
+
             {collaborationType === "Team" ? (
               <span className="bg-indigo-600/90 text-white backdrop-blur-md text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider shadow-sm flex items-center gap-1">
                 <Users size={10} />
