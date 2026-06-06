@@ -1,4 +1,4 @@
-export type Category = "Fullstack" | "Frontend" | "Static" | "UI/UX";
+export type Category = "Fullstack" | "Frontend" | "Static" | "UI/UX" | "Backend";
 
 export interface Project {
   id: number;
@@ -10,4 +10,8 @@ export interface Project {
   live_demo: string;
   technologies: string[];
   featured?: boolean;
+  engagementType?: "Freelance" | "Personal";
+  collaborationType?: "Solo" | "Team";
+  role?: string;
+  teamSize?: number;
 }
