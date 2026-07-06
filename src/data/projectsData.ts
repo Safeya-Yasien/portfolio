@@ -108,6 +108,30 @@ export const projectsData: Project[] = [
   },
   {
     id: 5,
+    title: "AI Care",
+    category: "Fullstack",
+    description:
+      "is an AI-powered clinical management platform built on the MERN stack. It implements an intelligent triage system that instantly categorizes patient needs, and provides doctors with a personalized dashboard tracking recovery progress and medication response metrics",
+    image: "/projects/ai-care.png",
+    github_link: "https://github.com/Safeya-Yasien/ai-care",
+    live_demo: "https://ai-care-patient.vercel.app/en",
+    technologies: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Langflow",
+      "OpenAI API",
+      "HuggingFace API",
+    ],
+    engagementType: "Scholarship",
+    collaborationType: "Team",
+    role: "Fullstack Developer",
+  },
+  {
+    id: 6,
     title: "Customer Management System Crud",
     category: "Fullstack",
     description:
@@ -122,7 +146,7 @@ export const projectsData: Project[] = [
     role: "Fullstack Developer",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio",
     category: "Frontend",
     description:
@@ -135,7 +159,7 @@ export const projectsData: Project[] = [
     collaborationType: "Solo",
   },
   {
-    id: 7,
+    id: 8,
     title: "Fresh Food",
     category: "Frontend",
     description:
@@ -148,7 +172,7 @@ export const projectsData: Project[] = [
     collaborationType: "Solo",
   },
   {
-    id: 8,
+    id: 9,
     title: "Traveling",
     category: "Frontend",
     description:
@@ -161,7 +185,7 @@ export const projectsData: Project[] = [
     collaborationType: "Solo",
   },
   {
-    id: 9,
+    id: 10,
     title: "Product Management System Crud",
     category: "Frontend",
     description:
@@ -176,7 +200,7 @@ export const projectsData: Project[] = [
     collaborationType: "Solo",
   },
   {
-    id: 10,
+    id: 11,
     title: "Cart ReduxToolkit",
     category: "Frontend",
     description:
@@ -189,7 +213,7 @@ export const projectsData: Project[] = [
     collaborationType: "Solo",
   },
   {
-    id: 11,
+    id: 12,
     title: "Portfolio Template",
     category: "Frontend",
     description:
@@ -202,7 +226,7 @@ export const projectsData: Project[] = [
     collaborationType: "Solo",
   },
   {
-    id: 12,
+    id: 13,
     title: "Education Landing Page",
     category: "UI/UX",
     description:
@@ -218,7 +242,7 @@ export const projectsData: Project[] = [
     scholarshipProgram: "ITI",
   },
   {
-    id: 13,
+    id: 14,
     title: "Car Showroom",
     category: "Frontend",
     description:
@@ -233,7 +257,7 @@ export const projectsData: Project[] = [
     teamSize: 2,
   },
   {
-    id: 14,
+    id: 15,
     title: "E-commerce Single Page Showcase",
     category: "Frontend",
     description:
@@ -248,7 +272,7 @@ export const projectsData: Project[] = [
   },
 
   {
-    id: 17,
+    id: 16,
     title: "Sayee",
     category: "Frontend",
     description:
@@ -264,7 +288,7 @@ export const projectsData: Project[] = [
     teamSize: 4,
   },
   {
-    id: 18,
+    id: 17,
     title: "E-commerce",
     category: "Fullstack",
     description:
@@ -288,7 +312,7 @@ export const projectsData: Project[] = [
     featured: true,
   },
   {
-    id: 19,
+    id: 18,
     title: "EcoCollect",
     category: "Frontend",
     description:
