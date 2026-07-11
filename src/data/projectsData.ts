@@ -127,6 +127,7 @@ export const projectsData: Project[] = [
       "HuggingFace API",
     ],
     engagementType: "Scholarship",
+    scholarshipProgram: "ITI",
     collaborationType: "Team",
     role: "Fullstack Developer",
   },
