@@ -320,7 +320,7 @@ export const projectsData: Project[] = [
       "A smart recycling platform that uses machine learning to identify recyclable materials through image analysis. The system includes an Android app for users and a web-based admin dashboard for monitoring and data analytics — all designed to promote sustainability and support the circular economy.",
     image: "/projects/eco-collect.webp",
     github_link: "https://github.com/Safeya-Yasien/eco-collect",
-    live_demo: "https://eco-collect-ruby.vercel.app/login",
+    live_demo: "https://eco-collect.netlify.app/",
     technologies: [
       "React",
       "Typescript",
