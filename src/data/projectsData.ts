@@ -280,7 +280,7 @@ export const projectsData: Project[] = [
       "Sayee is a platform aimed at connecting volunteers with opportunities to contribute to various community service projects. The website provides a space where organizations can post volunteer opportunities and individuals can register to offer their time and skills. The goal of Sayee is to create a streamlined, user-friendly system for organizing volunteer efforts and fostering community engagement.",
     image: "/projects/sayee.webp",
     github_link: "https://github.com/Safeya-Yasien/saye_angular",
-    live_demo: "https://sayee-angular.vercel.app/",
+    live_demo: "https://saye-angular.vercel.app/",
     technologies: ["Angular 18", "Bootstrap"],
     engagementType: "Scholarship",
     scholarshipProgram: "DEPI",
@@ -320,7 +320,7 @@ export const projectsData: Project[] = [
       "A smart recycling platform that uses machine learning to identify recyclable materials through image analysis. The system includes an Android app for users and a web-based admin dashboard for monitoring and data analytics — all designed to promote sustainability and support the circular economy.",
     image: "/projects/eco-collect.webp",
     github_link: "https://github.com/Safeya-Yasien/eco-collect",
-    live_demo: "https://eco-collect.vercel.app/",
+    live_demo: "https://eco-collect-ruby.vercel.app/login",
     technologies: [
       "React",
       "Typescript",
