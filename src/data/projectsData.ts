@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
       "A recipe and culinary exploration app focusing on smooth user experience.",
     image: "/projects/the-chef-show.webp",
     github_link: "https://github.com/Safeya-Yasien/the-chef-show",
-    live_demo: "https://thechefshow-lovat.vercel.app/",
+    live_demo: "https://the-chef-show.vercel.app/",
     technologies: ["React", "Typescript", "Tailwind"],
     featured: true,
     engagementType: "Internship",
