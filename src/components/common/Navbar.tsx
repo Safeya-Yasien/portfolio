@@ -39,7 +39,7 @@ const Navbar = () => {
             <Github className="h-4 w-4" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/safeya-yasien-2ba9b4260/"
+            href="https://www.linkedin.com/in/safeya-yasien/"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full p-2 text-gray-700 transition hover:bg-blue-100 hover:text-blue-600 dark:text-gray-200 dark:hover:bg-blue-950 dark:hover:text-blue-400"

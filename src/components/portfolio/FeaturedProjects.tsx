@@ -22,8 +22,8 @@ const FeaturedProjects = () => {
     .slice(0, 6);
 
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto" id="projects">
-      <div className="flex justify-between items-end mb-12">
+    <section className="py-20 max-w-7xl mx-auto" id="projects">
+      <div className="flex justify-between items-end mb-4">
         <div>
           <CustomTitle title="Featured Work" />
         </div>

@@ -3,7 +3,7 @@ import CustomTitle from "./CustomTitle";
 
 export default function UniqueSection() {
   return (
-    <section className="px-6 md:px-16">
+    <section className="md:px-16">
       <CustomTitle title="What Makes Me Unique" />
       <div className="grid md:grid-cols-3 gap-8">
         {uniques.map((item) => (
