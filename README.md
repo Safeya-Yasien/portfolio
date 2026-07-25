@@ -1,81 +1,65 @@
+# Safeya Yasien Portfolio
+
+A modern, responsive personal portfolio website built with Next.js, Tailwind CSS, and motion-driven UI to showcase projects, skills, certifications, and professional experience.
+
 ## Live Demo
 
-https://safeya-yasien.netlify.app/
-<br>
-<br>
-https://portfolio-one-xi-25.vercel.app/
-<br>
-<br>
+Primary deployment: [Vercel](https://safeya-yasien.vercel.app/)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Fallback deployment: [Netlify](https://safeya-yasien.netlify.app/)
+
+## Features
+
+- Responsive portfolio layout for desktop and mobile
+- Smooth animations and modern visual design
+- Project showcase with category filtering
+- Skills, certifications, and featured work sections
+- Lightweight, fast-loading experience with Next.js
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Motion](https://motion.dev/)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/Safeya-Yasien/portfolio.git
+   cd portfolio
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server
 
-## Learn More
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open http://localhost:3000 in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- src/app: Main pages and app routing
+- src/components: Reusable UI sections and page components
+- src/data: Portfolio content such as projects and services
+- src/constants: Navigation and skill configuration
+- src/types: Shared TypeScript types
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is configured for deployment on both Vercel and Netlify. Vercel is set as the primary hosting option, while Netlify is kept as a reliable fallback.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
 
-<!--   -->
-
-## enhance navbar divide it into small parts
-
-## enhance navbar icons
-
-## enhance unique section by adding animation to cards
-
-## enhance projects section by adding animation to cards
-
-## Use a Typewriter effect for your titles (e.g., "Front-End Developer", "React Enthusiast", "MERN Stack Learner").
-
-## add resume
-
-## display select in projects display buttons instead of select options
-
-## add copy for email in contact section
-
-## validation in contact form
-
-## add animation
-
-
-
-# add skeleton to project card skeleton
-# add loading page to home page
-# add error page in home page
-# add error page in projects page and home page
-
-# view all rpojects color sufficent background 
-
-# facebook, linkedin, twttier img not appears
-
- admin@test.com
-password123
+- GitHub: https://github.com/Safeya-Yasien
+- LinkedIn: https://www.linkedin.com/in/safeya-yasien/
