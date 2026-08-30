@@ -19,12 +19,12 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Safeya Yasien",
-    url: "https://safeya-yasien.netlify.app",
+    url: "https://safeya-yasien.vercel.app",
     jobTitle: "Frontend Developer",
     knowsAbout: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
     sameAs: [
       "https://github.com/Safeya-Yasien",
-      "https://www.linkedin.com/in/safeya-yasien-2ba9b4260/",
+      "https://www.linkedin.com/in/safeya-yasien/",
     ],
   };
 

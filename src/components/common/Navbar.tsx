@@ -100,7 +100,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="https://www.linkedin.com/in/safeya-yasien-2ba9b4260/"
+              href="https://www.linkedin.com/in/safeya-yasien/"
               target="_blank"
               rel="noopener noreferrer"
               className="me-4 md:me-6 flex items-center text-xl transition hover:text-blue-600 dark:hover:text-blue-400"
