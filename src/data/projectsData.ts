@@ -362,7 +362,8 @@ export const projectsData: Project[] = [
     id: 20,
     title: "Interactive Portfolio Template",
     category: "Frontend",
-    description: "",
+    description:
+      "A reusable, interactive portfolio template for frontend developers. Built with React and TypeScript, with Swiper sliders, a tsParticles animated background, and Lottie animations, and styled with Tailwind CSS.",
     image: "/projects/interactive-react-portfolio-template.webp",
     github_link: "https://interactive-react-portfolio-templat.vercel.app/",
     live_demo: "https://interactive-react-portfolio-templat.vercel.app/",
