@@ -15,7 +15,11 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="leading-8 text-base">
-               I'm a frontend developer skilled in React, Next.js, TypeScript, and Tailwind CSS, with hands-on full-stack experience in Node.js, Express, and MongoDB. I build responsive, bilingual (RTL/LTR) interfaces and have delivered freelance client projects. I gained experience through ITI, ALX, DEPI, and an internship at Nerds Arena.
+            I'm a frontend developer skilled in React, Next.js, TypeScript, and
+            Tailwind CSS, with hands-on full-stack experience in Node.js,
+            Express, and MongoDB. I build responsive, bilingual (RTL/LTR)
+            interfaces and have delivered freelance client projects. I gained
+            experience through ITI, ALX, DEPI, and an internship at Nerds Arena.
           </p>
 
           {/* education */}
