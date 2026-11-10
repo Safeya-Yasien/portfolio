@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Safeya Yasien | Frontend Developer",
   description:
     "A passionate Frontend Developer crafting engaging web experiences with React, Tailwind CSS, and TypeScript. Explore my portfolio to see how I blend creativity and code to bring ideas to life.",
-  url: "https://safeya-yasien.netlify.app",
+  url: "https://safeya-yasien.vercel.app",
   ogImage: "/og-image.png",
   favicon: "/favicon.ico",
 };

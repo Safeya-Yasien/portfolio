@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://safeya-yasien.netlify.app";
+  const baseUrl = "https://safeya-yasien.vercel.app";
 
   return [
     {
