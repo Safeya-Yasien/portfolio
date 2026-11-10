@@ -11,17 +11,11 @@ const HeroSection = () => {
             Hi, I&apos;m Safeya Yasien,
             <br />
             <span className="text-blue-700 dark:text-blue-400">
-              Front-End Developer | Learning MERN Stack
+              Frontend Developer | React, Next.js & TypeScript
             </span>
           </h1>
           <p className="leading-8 text-base">
-            I’m a front-end developer skilled in React, Next.js, TypeScript, and
-            Tailwind CSS. Recently, I’ve been expanding into back-end
-            development with Node.js, Express, and MongoDB to build full-stack
-            (MERN) applications. I gained hands-on experience through the ALX
-            and DEPI programs and an internship at Nerds Arena, working on
-            real-world projects that strengthened my technical and teamwork
-            skills.
+               I'm a frontend developer skilled in React, Next.js, TypeScript, and Tailwind CSS, with hands-on full-stack experience in Node.js, Express, and MongoDB. I build responsive, bilingual (RTL/LTR) interfaces and have delivered freelance client projects. I gained experience through ITI, ALX, DEPI, and an internship at Nerds Arena.
           </p>
 
           {/* education */}
