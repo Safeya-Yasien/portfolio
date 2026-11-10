@@ -6,11 +6,31 @@ import {
   FeaturedProjects,
   UniqueSection,
 } from "../components/portfolio";
+import { pageKeywords, siteConfig } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "React & Next.js Frontend Developer",
+  description:
+    "Safeya Yasien is a frontend developer specializing in React, Next.js, and TypeScript. Explore responsive web projects, bilingual interfaces, and modern UI work.",
+  keywords: pageKeywords.home,
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    title: "Safeya Yasien | React & Next.js Frontend Developer",
+    description:
+      "Explore responsive web projects and bilingual interfaces by Safeya Yasien, a frontend developer specializing in React, Next.js, and TypeScript.",
+    url: siteConfig.url,
+    type: "website",
+    siteName: `${siteConfig.name} Portfolio`,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} | React & Next.js Frontend Developer`,
+      },
+    ],
   },
 };
 
